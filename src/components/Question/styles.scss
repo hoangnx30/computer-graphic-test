@@ -1,0 +1,11 @@
+@import "../../styles/scss/index.scss";
+.question-component {
+  .question {
+    font-size: 1.25rem;
+    color: $primary-color;
+  }
+  .ant-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+}

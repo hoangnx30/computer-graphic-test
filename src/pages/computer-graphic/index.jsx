@@ -18,12 +18,9 @@ const tabs = [
 
 const ComputerGraphicPage = () => {
   return (
-    <>
-      <div>Computer Graphic Page</div>
-      <div>
-        <TabsComponent tabs={tabs} />
-      </div>
-    </>
+    <div>
+      <TabsComponent tabs={tabs} />
+    </div>
   )
 }
 

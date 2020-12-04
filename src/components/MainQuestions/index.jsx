@@ -14,6 +14,20 @@ const MainQuestionsComponent = (props) => {
     setCurrentQuestion(Number(event.target.innerText - 1))
   }
 
+  const handleNextQuestion = () => {
+    if (listQuestions.length === currentQuestion + 1) {
+      return
+    }
+    setCurrentQuestion(currentQuestion + 1)
+  }
+
+  const handleBackQuestion = () => {
+    if (currentQuestion === 0) {
+      return
+    }
+    setCurrentQuestion(currentQuestion - 1)
+  }
+
   return (
     <div className="main-question">
       {listQuestions.map((question, index) => {
@@ -38,10 +52,17 @@ const MainQuestionsComponent = (props) => {
         <Button>Làm lại</Button>
       </div>
       <div className="question">
-        {listQuestions.forEach((question, index) => {
+        {listQuestions.map((question, index) => {
           if (index === currentQuestion) {
-            return <QuestionComponent question={question} />
+            return (
+              <QuestionComponent
+                ques={question}
+                onNextQuestion={handleNextQuestion}
+                onBackQuestion={handleBackQuestion}
+              />
+            )
           }
+          return null
         })}
       </div>
     </div>
