@@ -2,8 +2,8 @@
 
 export const mixArray = (arr) => {
   for (let i = 0; i < arr.length; i++) {
-    const idx1 = Math.floor(Math.random() * 4)
-    const idx2 = Math.floor(Math.random() * 4)
+    const idx1 = Math.floor(Math.random() * arr.length)
+    const idx2 = Math.floor(Math.random() * arr.length)
 
     const tmp = arr[idx1]
     arr[idx1] = arr[idx2]
