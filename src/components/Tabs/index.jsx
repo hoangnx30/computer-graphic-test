@@ -1,6 +1,10 @@
 import Tabs from 'antd/lib/tabs'
 import { useState } from 'react'
+
+import './styles.scss'
+
 const { TabPane } = Tabs
+
 
 const TabsComponent = (props) => {
   const { tabs } = props
