@@ -327,6 +327,17 @@ const data = {
       ],
       answer: 0,
     },
+    {
+      question: `Điền vào phần bỏ trống
+      ________ lưu trữ thông tin ảnh như là phân bố sự thay đổi đằng sau màn hình
+      phốt pho.`,
+      choice: [
+        { id: 1, choice: 'Ống tia ca tốt (Cathode ray tube)' },
+        { id: 2, choice: 'Ống tia ca tốt (Cathode ray tube)' },
+        { id: 0, choice: 'Ống lưu trữ cảnh trực tiếp (Direct-view storage tube)' },
+        { id: 3, choice: 'Thiết bị hiển thị ba chiều (3D viewing device)' },
+      ],
+    },
   ],
 }
 export default data
