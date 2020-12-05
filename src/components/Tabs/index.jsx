@@ -5,7 +5,6 @@ import './styles.scss'
 
 const { TabPane } = Tabs
 
-
 const TabsComponent = (props) => {
   const { tabs } = props
 
@@ -13,7 +12,7 @@ const TabsComponent = (props) => {
   const onChangeTab = (key) => {
     setActiveTab(key)
   }
-
+  console.log('render')
   return (
     <Tabs defaultActiveKey={activeTab} onChange={onChangeTab}>
       {tabs.map((tab, index) => (
