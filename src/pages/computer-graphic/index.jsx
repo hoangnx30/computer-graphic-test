@@ -5,16 +5,16 @@ import data from './data'
 
 const { ThietBi } = data
 
-const mixData = (data) => {
-  const mixQuestion = mixArray(data)
-  mixQuestion.forEach((_, index) => {
-    mixQuestion[index].choice = mixArray(_.choice)
-  })
-  return mixQuestion
-}
+// const mixData = (data) => {
+//   const mixQuestion = mixArray(data)
+//   mixQuestion.forEach((_, index) => {
+//     mixQuestion[index].choice = mixArray(_.choice)
+//   })
+//   return mixQuestion
+// }
 
 const tabs = [
-  { tab: 'Thiết bị', component: <MainQuestionsComponent listQuestions={mixData(ThietBi)} /> },
+  { tab: 'Thiết bị', component: <MainQuestionsComponent listQuestions={mixArray(ThietBi)} /> },
   { tab: 'Các thuật toán tô màu', component: <div>Component 2</div> },
   { tab: 'Các thuật toán vẽ đường thẳng, đường tròn', component: <div>Component 3</div> },
   { tab: 'Các thuật toán cắt xén', component: <div>Component 4</div> },
