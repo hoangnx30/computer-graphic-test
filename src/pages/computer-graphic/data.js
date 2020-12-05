@@ -67,7 +67,7 @@ const data = {
         { id: 0, choice: 'Space ball' },
         { id: 1, choice: 'Trackball' },
         { id: 2, choice: 'Không phải Trackball' },
-        { id: 3, choice: 'Space ball' },
+        { id: 3, choice: 'Chỉ có Space ball' },
       ],
       answer: 1,
     },
