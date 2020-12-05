@@ -31,9 +31,9 @@ const QuestionComponent = forwardRef((props, ref) => {
   const renderChoice = useMemo(() => {
     return (
       <>
-        {mixArray(choice).map((c, idx) => {
+        {choice.map((c, idx) => {
           return (
-            <Radio value={c.id} key={idx}>
+            <Radio value={c.id} key={idx} className="mt-2 choice">
               {c.choice}
             </Radio>
           )

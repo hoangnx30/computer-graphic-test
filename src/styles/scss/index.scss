@@ -1,8 +1,15 @@
 @import "./variable";
-body {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .active {
@@ -11,4 +18,13 @@ body {
 
 .cursor {
   cursor: pointer;
+}
+
+.mt-2 {
+  margin-top: 0.35rem;
+}
+
+
+.mb-2 {
+  margin-bottom: 0.35rem;
 }

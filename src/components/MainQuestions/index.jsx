@@ -10,6 +10,7 @@ import { useForceUpdate } from '../../hooks/useForceUpdate'
 
 const MainQuestionsComponent = (props) => {
   let { listQuestions } = props
+
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const forceUpdate = useForceUpdate()
   const questionRef = useRef()
@@ -17,6 +18,7 @@ const MainQuestionsComponent = (props) => {
   const handleChooseQuestion = (event, flag = false) => {
     if (!flag) {
       setCurrentQuestion(Number(event.target.innerText - 1))
+      questionRef.current.reloadQuestion()
     } else {
       setCurrentQuestion(0)
     }
@@ -80,7 +82,7 @@ const MainQuestionsComponent = (props) => {
         }
       })}
       <div>
-        <Button type="primary" onClick={onReworkTest}>
+        <Button type="primary" onClick={onReworkTest} className="mt-2 mb-2">
           Làm lại
         </Button>
       </div>
