@@ -5,8 +5,8 @@ import ArrowRightOutlined from '@ant-design/icons/ArrowRightOutlined'
 import ReloadOutlined from '@ant-design/icons/ReloadOutlined'
 import CheckOutlined from '@ant-design/icons/CheckOutlined'
 import Radio from 'antd/lib/radio'
-import './styles.scss'
 import { openFailNotification, openSuccessNotification } from '../../helper/notification'
+import './styles.scss'
 
 const QuestionComponent = forwardRef((props, ref) => {
   const { ques, onNextQuestion, onBackQuestion } = props

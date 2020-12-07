@@ -10,6 +10,11 @@
     margin: 0;
     padding: 0;
   }
+  .question-component {
+    .ant-card-body {
+      height: 250px;
+    }
+  }
 }
 
 .active {
@@ -23,7 +28,6 @@
 .mt-2 {
   margin-top: 0.35rem;
 }
-
 
 .mb-2 {
   margin-bottom: 0.35rem;
