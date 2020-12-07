@@ -333,10 +333,163 @@ const data = {
       phốt pho.`,
       choice: [
         { id: 1, choice: 'Ống tia ca tốt (Cathode ray tube)' },
-        { id: 2, choice: 'Ống tia ca tốt (Cathode ray tube)' },
+        { id: 2, choice: 'Màn hình hiển thị phẳng (Flat panel displays)' },
         { id: 0, choice: 'Ống lưu trữ cảnh trực tiếp (Direct-view storage tube)' },
         { id: 3, choice: 'Thiết bị hiển thị ba chiều (3D viewing device)' },
       ],
+      answer: 0,
+    },
+    {
+      question: 'Thiết bị chuyển đổi từ năng lượng điện thành ánh sang được gọi là?',
+      choice: [
+        { id: 1, choice: 'Màn hình tinh thể lỏng (Liquid-crystal displays)' },
+        { id: 0, choice: 'Bộ phát (Emitters)' },
+        {
+          id: 2,
+          choice: 'Bộ không phát (Non-emitters)',
+        },
+        { id: 3, choice: 'Màn hình Plasma (Plasma panels)' },
+      ],
+      answer: 0,
+    },
+    {
+      question: `Trong hệ thống nào, phương pháp mặt nạ tạo bóng (the Shadow mask methods
+        )thường được sử dụng?`,
+      choice: [
+        { id: 0, choice: 'Hệ thống quét mành (Raster-scan system)' },
+        { id: 1, choice: 'Hệ thống quét ngẫu nhiên (Random-scan system)' },
+        {
+          id: 2,
+          choice: 'Chỉ A',
+        },
+        { id: 3, choice: 'Cả A và B' },
+      ],
+      answer: 0,
+    },
+    {
+      question: `Quá trình xử lý số hóa một ảnh cho trước thành tập cường độ điểm ảnh lưu trữ
+      trong bộ đệm khung được gọi là?`,
+      choice: [
+        { id: 1, choice: 'Mành hóa (Rasterization)' },
+        {
+          id: 2,
+          choice: 'Mã hóa (Encoding)',
+        },
+        { id: 0, choice: 'Chuyển đổi quét (Scan conversion)' },
+        { id: 3, choice: 'Hệ thống màu thực (True color system)' },
+      ],
+      answer: 0,
+    },
+    {
+      question: `Thiết bị hiển thị nào cho phép di chuyển xung quanh đối tượng và hiện thị đối
+      tượng từ các hướng khác nhau?`,
+      choice: [
+        { id: 1, choice: 'Ống lưu trữ cảnh trực tiếp (Direct view storage tubes)' },
+        {
+          id: 2,
+          choice: 'Thiết bị hiển thị màn hình phẳng (Flat panel display devices)',
+        },
+        { id: 3, choice: 'Thiết bị hiển thị plasma (Plasma panel display devices)' },
+        { id: 0, choice: 'Thiết bị hiển thị ba chiều (Three-dimensional devices)' },
+      ],
+      answer: 0,
+    },
+    {
+      question: 'Trong màn hình LCD, tốc độ làm tươi của màn hình là?',
+      choice: [
+        { id: 1, choice: '80 khung hình /s' },
+        { id: 0, choice: '60 khung hình /s' },
+        {
+          id: 2,
+          choice: '30 khung hình /s',
+        },
+        { id: 3, choice: '100 khung hình /s' },
+      ],
+      answer: 0,
+    },
+    {
+      question: ' Hệ thống quét ngẫu nhiên được thiết kế cho ?',
+      choice: [
+        { id: 0, choice: 'Ứng dụng vẽ đường thẳng (Line-drawing applications)' },
+        { id: 1, choice: 'Màn hình đổ bóng thực (Realistic shaded screen)' },
+        {
+          id: 2,
+          choice: 'Hiệu ứng sương mù (Fog effect)',
+        },
+        { id: 3, choice: 'Chỉ có' },
+      ],
+      answer: 0,
+    },
+    {
+      question: `Điền vào phần bỏ trống
+      Thiết bị ra chính trong hệ thống đồ họa là _________?`,
+      choice: [
+        { id: 0, choice: 'Màn hình hiển thị video (Video monitor)' },
+        { id: 1, choice: 'Máy quét' },
+        {
+          id: 2,
+          choice: 'Không A cũng không B',
+        },
+        { id: 3, choice: 'Máy in' },
+      ],
+      answer: 0,
+    },
+    {
+      question: `Trên một hệ thống đen trắng với một bit trên một điểm ảnh (one bit per pixel), bộ
+      đệm khung thường được gọi là?`,
+      choice: [
+        { id: 1, choice: 'Pix map' },
+        {
+          id: 2,
+          choice: 'Multi map',
+        },
+        { id: 0, choice: 'Bitmap' },
+        { id: 3, choice: 'Tất cả các đáp án trên' },
+      ],
+      answer: 0,
+    },
+    {
+      question: '“Aspect ratio” có nghĩa là?',
+      choice: [
+        {
+          id: 0,
+          choice: `Tỉ lệ điểm ảnh chiều cao so với chiều rộng (Ratio of vertical points to horizontal
+          points)`,
+        },
+        { id: 1, choice: 'Số lượng điểm ảnh (Number of pixels)' },
+        {
+          id: 2,
+          choice: `Tỉ lệ điểm ảnh chiều rộng so với chiều cao (Ratio of horizontal points to vertical
+            points)`,
+        },
+        { id: 3, choice: 'Cả B và C' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Giao diện đồ họa cơ bản là?',
+      choice: [
+        { id: 0, choice: 'Thiết bị trỏ (Pointing)' },
+        { id: 1, choice: 'Thiết bị định vị (Positioning)' },
+        { id: 3, choice: 'Cả A và B' },
+        {
+          id: 2,
+          choice: 'Không lựa chọn nào ở trên',
+        },
+      ],
+      answer: 3,
+    },
+  ],
+  CacThuatToanToMau: [
+    {
+      question: 'Các lựa chọn màu được mã hóa số với các giá trị sau?',
+      choice: [
+        { id: 0, choice: 'Miền bao gồm 0 và các số nguyên dương' },
+        { id: 1, choice: `Miền từ 0 tới 1` },
+        { id: 2, choice: 'Miền từ 0 tới -0' },
+        { id: 3, choice: 'Chỉ C' },
+      ],
+      answer: 0,
     },
   ],
 }

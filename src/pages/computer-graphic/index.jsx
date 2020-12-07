@@ -3,7 +3,7 @@ import TabsComponent from '../../components/Tabs'
 import { mixArray } from '../../helper/mixArray'
 import data from './data'
 
-const { ThietBi } = data
+const { ThietBi, CacThuatToanToMau } = data
 
 // const mixData = (data) => {
 //   const mixQuestion = mixArray(data)
@@ -15,7 +15,7 @@ const { ThietBi } = data
 
 const tabs = [
   { tab: 'Thiết bị', component: <MainQuestionsComponent listQuestions={mixArray(ThietBi)} /> },
-  { tab: 'Các thuật toán tô màu', component: <div>Component 2</div> },
+  { tab: 'Các thuật toán tô màu', component: <MainQuestionsComponent listQuestions={mixArray(CacThuatToanToMau)} /> },
   { tab: 'Các thuật toán vẽ đường thẳng, đường tròn', component: <div>Component 3</div> },
   { tab: 'Các thuật toán cắt xén', component: <div>Component 4</div> },
   { tab: 'Các phép biến đổi', component: <div>Component 5</div> },
