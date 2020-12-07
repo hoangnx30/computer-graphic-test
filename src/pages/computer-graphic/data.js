@@ -492,6 +492,446 @@ const data = {
       answer: 0,
     },
   ],
+  OpenGL: [
+    {
+      question: 'Ý nghĩa của i,f,v,d… theo qui ước trong các hàm của OpenGL?',
+      choice: [
+        { id: 0, choice: 'Không có ý nghĩa gì đặc biệt' },
+        { id: 3, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
+        { id: 1, choice: 'Không có ý nghĩa gì đặc biệt' },
+        { id: 2, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Đâu là 2 lựa chọn của glShadeModel()?',
+      choice: [
+        { id: 0, choice: 'DEPTH và STENCIL' },
+        { id: 3, choice: 'SMOOTH và FLAT' },
+        { id: 1, choice: 'WIDE và NARROW' },
+        { id: 2, choice: 'FOREGROUND và BACKGROUND' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Cỡ của ma trận biến đổi 3 chiều',
+      choice: [
+        { id: 3, choice: '4×4' },
+        { id: 0, choice: '2×2' },
+        { id: 1, choice: '3×3' },
+        { id: 2, choice: '3×4' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Bạn có thể chỉ rõ vị trí của một nguồn sáng trong OpenGL?',
+      choice: [
+        { id: 3, choice: 'Có' },
+        { id: 0, choice: 'Không' },
+        { id: 1, choice: 'Thỉnh thoảng' },
+        { id: 2, choice: 'Có bởi người sử dụng' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'VA hoặc VAO viết tắt cho?',
+      choice: [
+        { id: 0, choice: 'Vector Array Object' },
+        { id: 3, choice: 'Vertex Array Object' },
+        { id: 1, choice: 'Vertex Automation Output' },
+        { id: 2, choice: 'Vertex Automation Output' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Chúng ta phải làm gì để quay đối tượng quanh một điểm không phải gốc tọa độ?',
+      choice: [
+        { id: 0, choice: 'Phép quay chỉ thực hiện được quanh gốc tọa độ' },
+        { id: 3, choice: 'Dịch đối tượng tới gốc tọa độ, xoay quah gốc tọa độ sau đó dịch tới vị trí ban đầu' },
+        { id: 1, choice: 'Thực hiện câu lệnh glRotate và chỉ rõ điểm mà đối tượng quay quanh' },
+        { id: 2, choice: 'Thực hiện câu lệnh glRotate và chỉ rõ điểm mà đối tượng quay quanh' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Trong OpenGL, GLSL là viết tắt của?',
+      choice: [
+        { id: 3, choice: 'Graphics Library Shader Language' },
+        { id: 0, choice: 'Graphical Library of Shader Languages' },
+        { id: 1, choice: 'Graphical Library of Shader Languages' },
+        { id: 2, choice: 'Graphical Language and Shading Library' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'glMaterialf(…) thực hiện chức năng?',
+      choice: [
+        { id: 0, choice: 'glMaterialf(…) thực hiện chức năng?' },
+        { id: 3, choice: 'Định nghĩa thuộc tính chất liệu của đối tượng được vẽ cho hiệu ứng hiển thị' },
+        { id: 1, choice: 'Chuyển sang chế độ chất liệu để thêm hiệu ứng hiển thị' },
+        { id: 2, choice: 'Lấy thuộc tính chất liệu của đối tượng được vẽ' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Hai tham số cho hàm glShadeModel()?',
+      choice: [
+        { id: 0, choice: 'DEPTH và STENCIL' },
+        { id: 3, choice: 'SMOOTH và FLAT' },
+        { id: 1, choice: 'WIDE và NARROW' },
+        { id: 2, choice: 'FOREGROUND và BACKGROUND' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Dạng đa giác nào hoạt động tốt nhất trong VBO để mô hình hóa đối tượng đặc\r\n(solid)?',
+      choice: [
+        { id: 0, choice: 'Triangles, quads và N-gons' },
+        { id: 3, choice: 'Triangles, Triangle Strips và Triangle Fans' },
+        { id: 1, choice: 'Quads, N-gons và unilateral N-gons' },
+        { id: 2, choice: 'N-gonal coplanar line strips' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Các thành phần tạo nên nguồn sáng trong OpenGL?',
+      choice: [
+        { id: 3, choice: 'Specular và Ambient.' },
+        { id: 0, choice: 'Diffuse, Specular, và Ambient.' },
+        { id: 1, choice: 'Diffuse và Ambient' },
+        { id: 2, choice: 'Diffuse, Opaque, Ambient' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Loại dữ liệu nào được lưu trữ trong VBO?',
+      choice: [
+        { id: 3, choice: 'Đỉnh đa giác (Vertices)' },
+        { id: 0, choice: 'Thông tin chia sẻ ngũ cảnh (Context-sharing Information)' },
+        { id: 1, choice: 'Điểm ảnhPixels' },
+        { id: 2, choice: 'Phân mảnh (Fragments)' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Hằng số hợp lệ cho glStencilOp?',
+      choice: [
+        { id: 0, choice: 'Một số nằm trong khoảng 0 và 255' },
+        { id: 3, choice: 'GL_KEEP, GL_ZERO,GL_REPLACE, GL_INCR, GL_INCR_WRAP,\r\nGL_DECR, GL_DECR_WRAP, GL_INVERT' },
+        { id: 1, choice: 'TRUE hoặc FALSE' },
+        { id: 2, choice: 'GL_R, GL_G, GL_B, GL_RGB, GL_RGBA, GL_ARGB, GL_BGRA' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Biến đổi (transformation) là gì ?',
+      choice: [
+        { id: 3, choice: 'Phép toán được sử dụng thể tạo các di chuyển của các điểm và đối tượng theo\r\nmong muốn' },
+        { id: 0, choice: 'Chuyển qua lại giữa các bộ đệm' },
+        { id: 1, choice: 'Hàm của OpenGL dùng để biến dạng (morph) đa giác thành đa giác khác.' },
+        { id: 2, choice: 'Phép biến hình' },
+      ],
+      answer: 3,
+    },
+    {
+      question:
+        'Nói chung, các đa giác nguyên thủy (primitive polygon) nào được dùng để tạo\r\nlưới để biểu diễn các đối tượng phức tạp',
+      choice: [
+        { id: 3, choice: 'Tam giác (Triangle)' },
+        { id: 0, choice: 'Hình vuông (Square)' },
+        { id: 1, choice: 'Hình tròn (Circle)' },
+        { id: 2, choice: 'Hình chữ nhật (Rectangle)' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Hình chữ nhật (Rectangle)',
+      choice: [
+        { id: 3, choice: 'glColor()' },
+        { id: 0, choice: 'glClearColor()' },
+        { id: 1, choice: 'glDisplayfunc()' },
+        { id: 2, choice: 'Không hàm nào' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Sự khác nhau giữa glColor3d và glColor3f?',
+      choice: [
+        { id: 3, choice: 'glColor3d có tham số kiểu double trong khi glColor3f có tham số kiểu float' },
+        { id: 0, choice: 'glColor3d chỉ thiết lập RGB, trong khi glColor3f thiết lập R,G,B và A' },
+        { id: 1, choice: 'glColor3d cho phép thao tác với màu 3d trong khi glColor3f chỉ cho phép 8-bit\r\nmàu' },
+        { id: 2, choice: 'glColor3d trong không gian thực trong khi glColor3f trong không gian số nguyên' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'FBO là gì?',
+      choice: [
+        { id: 0, choice: 'File Buffered Output' },
+        { id: 3, choice: 'Framebuffer Object' },
+        { id: 1, choice: 'Frictionless Baryonic Oscillation' },
+        { id: 2, choice: 'Friday Buy Out' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Hàm nào có thể thiết lập kích cỡ của vùng hiển thị',
+      choice: [
+        { id: 0, choice: 'gluPerspective()' },
+        { id: 3, choice: 'glViewport()' },
+        { id: 1, choice: 'Không lựa chọn nào' },
+        { id: 2, choice: 'glDisplayfunc()' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Ánh sáng môi trường (ambient light) có trong OpenGL?',
+      choice: [
+        { id: 3, choice: 'Có' },
+        { id: 0, choice: 'Thỉnh thoảng' },
+        { id: 1, choice: 'Không' },
+        { id: 2, choice: 'Tùy từng phiên bản' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL có hỗ trợ mành hóa (Rasterization)?',
+      choice: [
+        { id: 3, choice: 'Có' },
+        { id: 0, choice: 'Không' },
+        { id: 1, choice: 'Thỉnh thoảng' },
+        { id: 2, choice: 'Tùy từng phiên bản' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL là viết tắt của',
+      choice: [
+        { id: 0, choice: 'Open General Liability' },
+        { id: 3, choice: 'Open Graphics Library' },
+        { id: 1, choice: 'Open Guide Line' },
+        { id: 2, choice: 'Open Graphics Layer' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Opengl dùng hệ trục tọa độ nào?',
+      choice: [
+        { id: 3, choice: 'Hệ tọa độ Decac ba chiều vuông góc' },
+        { id: 0, choice: 'Hệ tọa độ Decac hai chiều vuông góc' },
+        { id: 1, choice: 'Hệ tọa độ cực ba chiều vuông góc' },
+        { id: 2, choice: 'Hệ tọa độ cực hai chiều vuông góc' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Câu lệnh dùng để vẽ các hình nguyên thủy trong OpenGL (OpenGL primitives).',
+      choice: [
+        { id: 3, choice: 'glVertex' },
+        { id: 0, choice: 'glColor' },
+        { id: 1, choice: 'glEnable' },
+        { id: 2, choice: 'glShadeModel' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Loại dữ liệu nào được lưu trữ trong VAO?',
+      choice: [
+        { id: 0, choice: 'Các thông tin lũy thửa để phân tích dữ liệu dạng sóng' },
+        {
+          id: 3,
+          choice:
+            'Trạng thái của đỉnh (Vertex state) và các thông tin dữ liệu khác dùng cho\r\nrendering trong luồng xử lý đồ họa',
+        },
+        { id: 1, choice: 'Thông tin tài nguyên của chương trình như trees, lists và data types' },
+        { id: 2, choice: 'Các chuỗi nhị phân' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'VBO là gì?',
+      choice: [
+        { id: 0, choice: 'Vertex Binding Object' },
+        { id: 3, choice: 'Vertex Buffer Object' },
+        { id: 1, choice: 'Variable Buffer Output' },
+        { id: 2, choice: 'Vertex Buffer Output' },
+      ],
+      answer: 3,
+    },
+    {
+      question: '“depth buffer” là gì và chức năng của nó?',
+      choice: [
+        { id: 3, choice: 'Một kiểu bộ đệm tích lũy thông tin độ sâu trong khung cảnh 3 chiều' },
+        { id: 0, choice: 'Một lược đồ tổ chức cảnh 3 chiều' },
+        { id: 1, choice: 'Một bộ đệm được đặc tả để thực hiện cảnh dưới nước' },
+        { id: 2, choice: 'Một bộ đệm chứa thông tin màu sắc' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL có cung cấp các đối tượng nguyên thủy như cube, cone, pyramid?',
+      choice: [
+        {
+          id: 3,
+          choice: 'Không chính thức trong đặc tả của OpenGL nhưng các đối tượng này được cung\r\ncấp bởi thư viện GLUT',
+        },
+        { id: 0, choice: 'Có nhưng phải dùng glEnable(GL_PRIMITIVES) trước câu lệnh glBegin' },
+        { id: 1, choice: 'Có' },
+        { id: 2, choice: 'Không bao giờ' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL sử dụng mô hình client-server và một máy trạng thái (state machine)?',
+      choice: [
+        { id: 0, choice: 'Không liên quan' },
+        { id: 3, choice: 'Có' },
+        { id: 1, choice: 'Không' },
+        { id: 2, choice: 'Thỉnh thoảng' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL có một máy quay (camera) chính thức không?',
+      choice: [
+        { id: 3, choice: 'Không' },
+        { id: 0, choice: 'Có' },
+        { id: 1, choice: 'Phải chỉ rõ khi thiết lập môi trường lập trình' },
+        { id: 2, choice: 'Có nếu người sử dụng bật lên' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Tổ chức chịu trách nhiệm cho các chuẩn và phát triển của OpenGL?',
+      choice: [
+        { id: 0, choice: 'Crysis' },
+        { id: 3, choice: 'Khronos' },
+        { id: 1, choice: 'Cryptic' },
+        { id: 2, choice: 'Chronos' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Mục đích của GL_REPEAT trong OpenGL?',
+      choice: [
+        { id: 3, choice: 'Lặp lại ảnh chất liệu theo một hướng (ngang hoặc dọc)' },
+        { id: 0, choice: 'Lặp lại câu lệnh cuối cùng' },
+        { id: 1, choice: 'Kích hoạt chế độ 2 bộ đệm' },
+        { id: 2, choice: 'Khởi động lại ứng dụng' },
+      ],
+      answer: 3,
+    },
+    {
+      question:
+        'Để có được tính toán chính xác cho việc tạo bóng. Độ dài cho các vecto pháp\r\ntuyến của đối tượng là?',
+      choice: [
+        { id: 0, choice: 2 },
+        { id: 3, choice: '1 (đơn vị độ dài)' },
+        { id: 1, choice: 'Bất cứ giá trị nào.' },
+        { id: 2, choice: 'Phụ thuộc vào kích cỡ của đối tượng được vẽ' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Tại sao phải xóa bộ đệm?',
+      choice: [
+        { id: 3, choice: 'Khởi tạo lại một trạng thái' },
+        { id: 0, choice: 'Yêu cầu bộ đệm xuất dữ liệu ra màn hình' },
+        { id: 1, choice: 'Để hoán đổi ộ đệm' },
+        { id: 2, choice: 'Để hiển thị được rõ ràng hơn' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'glViewport dùng để làm gì?',
+      choice: [
+        { id: 3, choice: 'glViewport dùng để làm gì?' },
+        { id: 0, choice: 'Thiết lập một viewport hoạt động' },
+        { id: 1, choice: 'Yêu cầu dùng cho hàm glOrtho' },
+        { id: 2, choice: 'Tắt chế độ tích lũy và kích hoạt viewport chuẩn' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Hai kiểu của shader?',
+      choice: [
+        { id: 0, choice: 'Fragment và polygon' },
+        { id: 3, choice: 'Vertex và fragment.' },
+        { id: 1, choice: 'Vertex và polygon' },
+        { id: 2, choice: 'Polygon và particle' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Các hàm trộn (blending function) không phụ thuộc thứ tự',
+      choice: [
+        { id: 3, choice: 'Sai' },
+        { id: 0, choice: 'Đúng' },
+        { id: 1, choice: 'Thỉnh thoảng' },
+        { id: 2, choice: 'Do người lập trình lựa chọn' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'X,Y,Z,S,T,U và V là gì?',
+      choice: [
+        { id: 3, choice: 'Thành phần tọa độ (Coordinate components)' },
+        { id: 0, choice: 'Các ký tự trong bảng chữ cái và không có ý nghĩa' },
+        { id: 1, choice: 'Tham số lựa chọn trong hàm glVertex*' },
+        { id: 2, choice: 'Biến của OpenGL' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL có cung cấp hiệu ứng vật lý (physics), hệ thống hạt (particle systems)?',
+      choice: [
+        { id: 0, choice: 'Có nhưng trong thư viện mở rộng Box2d' },
+        { id: 3, choice: 'Không.' },
+        { id: 1, choice: 'Có nhưng tùy phiên bản' },
+        { id: 2, choice: 'Chỉ cung cập hiệu ứng vật lý' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Các giá trị “R”, “G”, “B” và “A” trong ngữ cảnh màu sắc có ý nghĩa gì?',
+      choice: [
+        { id: 0, choice: 'Rotate, Gyrate, Blend và Amorphize' },
+        { id: 3, choice: 'Các kênh Red, Green, Blue và Alpha tương ứng' },
+        { id: 1, choice: 'Red, Green, Black, Auburn' },
+        { id: 2, choice: 'Các giá trị “R”, “G”, “B” và “A” trong ngữ cảnh màu sắc có ý nghĩa gì?' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'OpenGL có thực hiện các thủ tục cắt xén không',
+      choice: [
+        { id: 0, choice: 'Không' },
+        { id: 3, choice: 'Có' },
+        { id: 1, choice: 'Có nhưng tùy phiên bản' },
+        { id: 2, choice: 'Chỉ cắt xen đoạn thẳng' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Loại mảng đỉnh (vertex array) nào không được cung cấp bởi OpenGL?',
+      choice: [
+        { id: 0, choice: 'Đỉnh (Verticies)' },
+        { id: 3, choice: 'Đa giác (Polygons)' },
+        { id: 1, choice: 'Màu sắc (Colors)' },
+        { id: 2, choice: 'Vecto pháp tuyến (Normals)' },
+      ],
+      answer: 3,
+    },
+    {
+      question: 'Nếu có phép quay góc α. Phép quay ngược là',
+      choice: [
+        { id: 0, choice: 'Phép quay góc – α' },
+        { id: 1, choice: 'Phép quay góc 2α' },
+        { id: 2, choice: 'Phép quay 0 độ' },
+      ],
+      answer: 0,
+    },
+  ],
 }
 export default data
 

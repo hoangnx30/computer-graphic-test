@@ -3,7 +3,7 @@ import TabsComponent from '../../components/Tabs'
 import { mixArray } from '../../helper/mixArray'
 import data from './data'
 
-const { ThietBi, CacThuatToanToMau } = data
+const { ThietBi, CacThuatToanToMau, OpenGL } = data
 
 // const mixData = (data) => {
 //   const mixQuestion = mixArray(data)
@@ -22,7 +22,7 @@ const tabs = [
   { tab: 'Đường cong và bề mặt', component: <div>Component 6</div> },
   { tab: 'Xác định bề mặt hiện', component: <div>Component 7</div> },
   { tab: 'Ánh sáng', component: <div>Component 8</div> },
-  { tab: 'OpenGL ', component: <div>Component 9</div> },
+  { tab: 'OpenGL ', component: <MainQuestionsComponent listQuestions={mixArray(OpenGL)} /> },
 ]
 
 const ComputerGraphicPage = () => {
