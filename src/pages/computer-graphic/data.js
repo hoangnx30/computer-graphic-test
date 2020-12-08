@@ -25,7 +25,7 @@ const data = {
       question: 'Điền vào phần bỏ trống ________ được dùng để đo độ xoay vòng quay?',
       choice: [
         { id: 0, choice: 'Chiết áp (Potentiometers).' },
-        { id: 1, choice: 'Chỉ đáp án Parameter.' },
+        { id: 1, choice: 'Chỉ đáp án chiết áp đúng' },
         { id: 2, choice: 'Máy đo điện thế (Volta meter).' },
         { id: 3, choice: 'Tham số (Parameter).' },
       ],
