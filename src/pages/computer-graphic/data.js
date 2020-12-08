@@ -416,7 +416,7 @@ const data = {
           id: 2,
           choice: 'Hiệu ứng sương mù (Fog effect)',
         },
-        { id: 3, choice: 'Chỉ có' },
+        { id: 3, choice: 'Chỉ C' },
       ],
       answer: 0,
     },
