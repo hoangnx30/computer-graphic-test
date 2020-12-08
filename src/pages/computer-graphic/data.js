@@ -269,8 +269,8 @@ const data = {
       choice: [
         { id: 0, choice: 'Chuột Z (Z mouse)' },
         { id: 1, choice: 'Bộ số hóa (Digitizers)' },
-        { id: 2, choice: 'Bảng dữ liệu (Data tablets)' },
-        { id: 1, choice: 'Máy quét ảnh (Image scanner)' },
+        { id: 3, choice: 'Bảng dữ liệu (Data tablets)' },
+        { id: 2, choice: 'Máy quét ảnh (Image scanner)' },
       ],
       answer: 0,
     },
