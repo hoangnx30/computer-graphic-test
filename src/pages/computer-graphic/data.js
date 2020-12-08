@@ -228,7 +228,7 @@ const data = {
     {
       question: `Thiết bị được thiết kế để tối thiểu hóa âm thanh nền là?`,
       choice: [
-        { id: 1, choice: `Bộ số hóa (Digitizers)` },
+        { id: 1, choice: `Găng tay cảm nhận(Data glove)` },
         { id: 2, choice: `Bộ số hóa (Digitizers)` },
         { id: 0, choice: `Micro (Microphone)` },
         { id: 3, choice: `Phím điều khiển trò chơi (Joy stick)` },
