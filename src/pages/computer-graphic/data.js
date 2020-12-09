@@ -482,14 +482,240 @@ const data = {
   ],
   CacThuatToanToMau: [
     {
-      question: 'Các lựa chọn màu được mã hóa số với các giá trị sau?',
+      id: 1,
+      question: 'Các lựa chọn màu được mã hóa số với các giá trị sau.',
       choice: [
-        { id: 0, choice: 'Miền bao gồm 0 và các số nguyên dương' },
-        { id: 1, choice: `Miền từ 0 tới 1` },
-        { id: 2, choice: 'Miền từ 0 tới -0' },
-        { id: 3, choice: 'Chỉ C' },
+        { id: 3, choice: 'Miền bao gồm 0 và các số nguyên dương' },
+        { id: 0, choice: 'Miền từ 0 tới 1' },
+        { id: 1, choice: 'Miền từ 0 tới -0' },
+        { id: 2, choice: 'Chỉ B đúng' },
       ],
-      answer: 0,
+      answer: 3,
+    },
+    {
+      id: 2,
+      question: 'Trong hệ thống mành có màu, số lượng màu sẵn có phụ thuộc vào',
+      choice: [
+        { id: 3, choice: 'Dung lượng cung cấp để lưu trữ 1 điểm ảnh trong bộ đệm khung' },
+        { id: 0, choice: 'Màu trong bộ đệm khung' },
+        { id: 1, choice: 'Màu RGB ' },
+        { id: 2, choice: 'Không a cũng không b' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Màu có mã “000” là màu',
+      choice: [
+        { id: 0, choice: 'Trắng' },
+        { id: 3, choice: 'Đen' },
+        { id: 1, choice: 'Xanh dương' },
+        { id: 2, choice: 'Xanh lá' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Thông tin màu được lưu trữ trong',
+      choice: [
+        { id: 0, choice: 'Bộ nhớ chính' },
+        { id: 3, choice: 'Bộ đệm khung' },
+        { id: 1, choice: 'Bộ nhớ phụ' },
+        { id: 2, choice: 'Card đồ họa' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question:
+        'Bất cứ khi nào một mã màu cụ thể được mô tả rõ trong một ứng dụng, giá trị nhị phân tương ứng được lưu trữ trong?',
+      choice: [
+        { id: 3, choice: 'Trực tiếp trong bộ đệm khung (Directly in frame buffer)' },
+        { id: 0, choice: 'Bảng tra màu (Color look-up table)' },
+        { id: 1, choice: 'A hoặc B' },
+        { id: 2, choice: 'Bảng tra video (Video lookup table)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question: 'Miền giá trị mô tả các mức xám ',
+      choice: [
+        { id: 0, choice: 'Miền giá trị từ -1 tới 1' },
+        { id: 3, choice: 'Miền giá trị từ 0 tới 1' },
+        { id: 1, choice: 'Miền giá trị từ 0 tới -1' },
+        { id: 2, choice: 'Bất cứ lựa chọn nào ở trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question:
+        'Với 3 bit cho một điểm ảnh, chúng ta có thể biểu diễn 8 mức xám. Nếu chúng ta sử dụng 8 bit cho một điểm ảnh thì có thể biểu diễn được bao nhiêu mức xám?',
+      choice: [
+        { id: 0, choice: '18 mức xám' },
+        { id: 3, choice: '256 mức xám' },
+        { id: 1, choice: '128 mức xám' },
+        { id: 2, choice: 'Không màu' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Với cường độ hiển thị tương ứng với màu cho trước, chỉ số ci được tính như sau',
+      choice: [
+        { id: 3, choice: 'Intensity=0.5[min(r, g, b)+ max(r, g, b)] ' },
+        { id: 0, choice: 'Intensity=0.5[max(r, g, b)+ max(r, g, b)] ' },
+        { id: 1, choice: 'Intensity=0.5[min(r, g, b)+ min(r, g, b)] ' },
+        { id: 2, choice: 'Intensity=0.5[max(r, g, b)- max(r, g, b)] ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question: 'Một người sử dụng có thể thiết lập đầu vào bảng màu trong chương trình ứng dụng PHIGS với hàm',
+      choice: [
+        { id: 0, choice: 'setColorRepresentation (ws, ci, colorptr)' },
+        { id: 3, choice: 'setColourRepresentation (ws, ci, colorptr)' },
+        { id: 1, choice: 'setColour (ws, ci, colorptr' },
+        { id: 2, choice: 'setColourRepresentation ()' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question:
+        'Nếu bất cứ giá trị cường độ vào gần 0.33 có thể được lưu trữ thành giá trị nhị phân 1 trong bộ đệm khung thì nó biểu ',
+      choice: [
+        { id: 0, choice: 'Màu xanh lá tối' },
+        { id: 3, choice: 'Màu xám tối' },
+        { id: 1, choice: 'Màu xám sáng' },
+        { id: 2, choice: 'Trắng hoặc đen' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question: 'Một kiểu tô màu cơ bản trong chương trình PHIGS là hàm',
+      choice: [
+        { id: 3, choice: 'setInteriorStyle (fs)' },
+        { id: 0, choice: 'setStyle (fs)' },
+        { id: 1, choice: 'SetfillStyle (fs)' },
+        { id: 2, choice: 'setInteriorStyleIndex (fs)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question: 'Loại này không phải kiểu tô màu cơ bản?',
+      choice: [
+        { id: 3, choice: 'Tối (Dark)' },
+        { id: 0, choice: 'Rỗng (Hollow)' },
+        { id: 1, choice: 'Màu đặc (solid color)' },
+        { id: 2, choice: 'Mẫu (Pattern)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question: 'Quá trình tô màu một vùng với mẫu hình chữ nhật được gọi là',
+      choice: [
+        { id: 0, choice: 'Linear fill' },
+        { id: 3, choice: 'Tiling' },
+        { id: 1, choice: 'Tint-fill' },
+        { id: 2, choice: 'Soft-fill' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 14,
+      question:
+        'Thuật toán tô màu lại một vùng mà trước đó đã được tô bằng cách trộn màu “foreground color F” và ”background color B” khi F!=B là',
+      choice: [
+        { id: 3, choice: 'Linear soft-fill' },
+        { id: 0, choice: 'Tint fill' },
+        { id: 1, choice: 'Flood fill' },
+        { id: 2, choice: 'Boundary fill' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 15,
+      question: 'Màu tô kết hợp với màu nền “ là',
+      choice: [
+        { id: 3, choice: 'Cả A và B' },
+        { id: 0, choice: 'Soft fill' },
+        { id: 1, choice: 'Tint fill' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 16,
+      question: 'Thủ tục tô màu vân “Hatch fill” được gọi để vẽ',
+      choice: [
+        { id: 3, choice: 'A hoặc B' },
+        { id: 0, choice: 'Single hatching' },
+        { id: 1, choice: 'Cross hatching' },
+        { id: 2, choice: 'Chỉ B đúng' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 17,
+      question:
+        'Khi hai màu nền (background color) B1 và B2 được trộn với màu ”foreground color F”, kết quả được màu P được tính như sau',
+      choice: [
+        { id: 3, choice: 'Chỉ A đúng' },
+        { id: 0, choice: 'P=t0*F+t1*B1+(1-t0-t1)B2' },
+        { id: 1, choice: 'P=t0*F-t1*B1+(1-t0-t1)B2' },
+        { id: 2, choice: 'P=t0*F+t1*B1+(1+t0+t1)B2' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 18,
+      question: 'Phép toán được dùng để kết hợp mẫu tô (fill pattern) với mẫu nền (background pattern) là',
+      choice: [
+        { id: 3, choice: 'Tất cả đáp án trên' },
+        { id: 0, choice: 'AND ' },
+        { id: 1, choice: 'OR ' },
+        { id: 2, choice: 'X-OR ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 19,
+      question: 'Vùng rỗng (Hollow areas) được hiển thị chỉ dùng',
+      choice: [
+        { id: 0, choice: 'Lộ trình vẽ đường thẳng (Line-drawing routine)' },
+        { id: 3, choice: 'Viền biên (Boundary outline)' },
+        { id: 1, choice: 'Mẫu vân sọc (Hatched patterns)' },
+        { id: 2, choice: 'Chuỗi các đường thẳng khép kín (Closed poly line)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 20,
+      question: 'Các lựa chọn cho tô màu một vùng được định nghĩa bao gồm một lựa chọn giữa __________',
+      choice: [
+        { id: 3, choice: 'Cả A và B ' },
+        { id: 0, choice: 'Màu đặc hoặc mẫu (Solid color or a pattern fill)' },
+        { id: 1, choice: 'Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 21,
+      question: 'Các dòng quét được sử dụng để quét từ',
+      choice: [
+        { id: 3, choice: 'Đỉnh tới đáy (Top to bottom)' },
+        { id: 0, choice: 'Đáy tới đỉnh (Bottom to top)' },
+        { id: 1, choice: 'Cả A và B' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
     },
   ],
   OpenGL: [
