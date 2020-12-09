@@ -1044,6 +1044,1073 @@ const data = {
       answer: 3,
     },
   ],
+  CacThuatToanCatXen: [
+    {
+      id: 1,
+      question: 'Quá trình ánh xạ từ cửa sổ thế giới từ hệ tọa độ thế giới sang viewport được gọi là',
+      choice: [
+        { id: 0, choice: 'Viewport' },
+        { id: 3, choice: 'Transformation viewing ' },
+        { id: 1, choice: 'Clipping window ' },
+        { id: 2, choice: 'Screen coordinate system' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question:
+        'Quá trình trích chọn một phần của cơ sở dữ liệu hoặc một ảnh bên trong/ bên ngoài của một vùng được gọi là',
+      choice: [
+        { id: 0, choice: 'Transformation ' },
+        { id: 3, choice: 'Clipping' },
+        { id: 1, choice: 'Projection ' },
+        { id: 2, choice: 'Mapping' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Phần hình chữ nhật của một cửa sổ giao diện nơi mà bức ảnh sẽ xuất hiện được gọi là',
+      choice: [
+        { id: 0, choice: 'Transformation viewing' },
+        { id: 3, choice: 'View port ' },
+        { id: 1, choice: 'Clipping window ' },
+        { id: 2, choice: 'Screen coordinate system' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Hệ tọa độ của cửa sổ nơi đối tượng thật xuất hiện được gọi là .............. ',
+      choice: [
+        { id: 0, choice: 'Device coordinates ' },
+        { id: 3, choice: 'World coordinates ' },
+        { id: 1, choice: 'Screen coordinates ' },
+        { id: 2, choice: 'Cartesian coordinates' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question: 'Hệ tọa độ của viewport được gọi là ............',
+      choice: [
+        { id: 0, choice: 'World coordinates ' },
+        { id: 3, choice: 'Screen coordinates ' },
+        { id: 1, choice: 'Polar coordinates ' },
+        { id: 2, choice: 'Cartesian coordinates' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question: 'Vùng chứa đối tượng sau khi bị cắt xén được gọi là ..............',
+      choice: [
+        { id: 0, choice: 'Boundary ' },
+        { id: 3, choice: 'Clip window' },
+        { id: 1, choice: 'Enclosing rectangle ' },
+        { id: 2, choice: 'Clip square' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question: 'Điền vào phần bỏ trống ............. để xác định vùng ảnh nằm ngoài cửa sổ cắt xén (clip window)',
+      choice: [
+        { id: 3, choice: 'Exterior clipping ' },
+        { id: 0, choice: 'Interior clipping ' },
+        { id: 1, choice: 'Extraction' },
+        { id: 2, choice: 'Không lựa chọn nào ở trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Xác định thuật toán dùng để cắt xén đoạn thẳng',
+      choice: [
+        { id: 0, choice: 'Cohen- Sutherland algorithm ' },
+        { id: 1, choice: 'Liang-Barsky clipping ' },
+        { id: 2, choice: 'Nicholl-Lee-Nicholl clipping' },
+        { id: 3, choice: 'Tất cả đáp án trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question: 'Điền vào phần bỏ trống Mã dùng để mã hóa vùng cửa sổ cắt xén là ............',
+      choice: [
+        { id: 0, choice: '0001' },
+        { id: 3, choice: '0000' },
+        { id: 1, choice: '1000' },
+        { id: 2, choice: '1111' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question:
+        'Theo thuật toán Cohen-Sutherland, một đoạn thẳng hoàn toàn nằm bên ngoài cửa sổ cắt xén nếu ............',
+      choice: [
+        { id: 0, choice: "Mã của hai đầu mút đoạn thẳng có cùng bit '0' tại cùng vị trí." },
+        { id: 3, choice: "Mã của hai đầu mút đoạn thẳng có cùng bit '1' tại cùng vị trí." },
+        { id: 1, choice: 'Nếu bit L và R khác 0.' },
+        { id: 2, choice: 'Mã của hai đầu mút đoạn thẳng có giá trị khác 0' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question:
+        'Điền vào phần bỏ trống Mã của một điểm là 1001. Điểm đó nằm ở vùng ..............… so với cửa sổ cắt xén.',
+      choice: [
+        { id: 0, choice: 'Botton right' },
+        { id: 3, choice: 'Top left ' },
+        { id: 1, choice: 'Bottom left ' },
+        { id: 2, choice: 'Top right ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question: 'Kết quả của phép toán AND với mã của các đầu mút với giá trị khác 0. Câu nào sau đây đúng?',
+      choice: [
+        { id: 3, choice: 'Đoạn thẳng nằm hoàn toàn bên ngoài cửa sổ cắt' },
+        { id: 0, choice: 'Đoạn thẳng nằm hoàn toàn bên trong cửa sổ cắt' },
+        { id: 1, choice: 'Đoạn thẳng có một phần nằm bên trong cửa sổ cắt' },
+        { id: 2, choice: 'Đoạn thẳng đã được cắt' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question: "Điền vào phần bỏ trống Bit bên trái (L bit ) của mã của điểm (X,Y) là '1' nếu ......................",
+      choice: [
+        { id: 0, choice: 'X > XWMIN ' },
+        { id: 3, choice: 'X< XWMIN ' },
+        { id: 1, choice: 'X< XWMAX ' },
+        { id: 2, choice: 'X>XWMAX' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 14,
+      question: "Bit bên phải (R bit ) của mã của điểm (X,Y) là '1' nếu......................",
+      choice: [
+        { id: 0, choice: 'X< XWMAX' },
+        { id: 3, choice: 'X>XWMAX' },
+        { id: 1, choice: 'X< XWMIN ' },
+        { id: 2, choice: 'X > XWMIN' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 15,
+      question: "Điền vào phần bỏ trống Bit trên đỉnh (T bit ) của mã của điểm (X,Y) là '1' nếu ......................",
+      choice: [
+        { id: 0, choice: 'Y< YWMAX ' },
+        { id: 3, choice: 'Y>YWMAX' },
+        { id: 1, choice: 'Y< YWMIN ' },
+        { id: 2, choice: 'Y > YWMIN ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 16,
+      question: "Bit dưới đáy (B bit ) của mã của điểm (X,Y) là '1' nếu .......................",
+      choice: [
+        { id: 0, choice: 'Y>YWMAX' },
+        { id: 3, choice: 'Y< YWMIN' },
+        { id: 1, choice: 'Y< YWMAX ' },
+        { id: 2, choice: 'Y > YWMIN ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 17,
+      question:
+        'Điền vào phần bỏ trống Thuật toán ...................... chia không gian 2 chiều thành 9 vùng, trong đó vùng ở giữa (viewport) chứa phần hiển thị của đối tượng',
+      choice: [
+        { id: 0, choice: 'Liang Barsky ' },
+        { id: 3, choice: 'Cohen-Sutherland ' },
+        { id: 1, choice: 'Sutherland Hodegeman ' },
+        { id: 2, choice: 'N-L-N' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 18,
+      question: 'Phép toán được sử dụng để kiểm tra đoạn thẳng có bị cắt xén hay không.............',
+      choice: [
+        { id: 3, choice: 'logical AND ' },
+        { id: 0, choice: 'logical XOR ' },
+        { id: 1, choice: 'logical OR ' },
+        { id: 2, choice: 'Cả B và C' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 19,
+      question: 'Thuật toán Sutherland Hodgeman hoạt động tốt trong trường hợp cắt xén...........',
+      choice: [
+        { id: 0, choice: 'Concave polygon ' },
+        { id: 3, choice: 'Convex polygon ' },
+        { id: 1, choice: 'Smooth curves ' },
+        { id: 2, choice: 'Line segment' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 20,
+      question:
+        'Điền vào phần bỏ trống Một phép biến đổi làm xiên (slants) hình dáng của đối tượng được gọi là ....................',
+      choice: [
+        { id: 3, choice: 'Shear ' },
+        { id: 0, choice: 'Scaling' },
+        { id: 1, choice: 'Distortion ' },
+        { id: 2, choice: 'Reflection ' },
+      ],
+      answer: 3,
+    },
+  ],
+  CacPhepBienDoi: [
+    {
+      id: 1,
+      question: 'Phép biến đổi tịnh tiến được áp dụng cho một đối tượng (object) bằng cách',
+      choice: [
+        { id: 3, choice: 'Đặt lại vị trí của đối tượng dọc theo một đường thẳng' },
+        { id: 0, choice: 'Đặt lại vị trí của đối tượng dọc theo một cung tròn' },
+        { id: 1, choice: 'Chỉ B' },
+        { id: 2, choice: 'Tất cả đáp án trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question: 'Chúng ta tịnh tiến một điểm 2 chiều bằng cách cộng thêm',
+      choice: [
+        { id: 3, choice: 'Khoảng cách dịch chuyển' },
+        { id: 0, choice: 'Độ lệch theo X' },
+        { id: 1, choice: 'Độ lệch theo Y' },
+        { id: 2, choice: 'X và Y' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Các khoảng cách dịch chuyển (dx, dy) được gọi là',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Véc tơ dịch chuyển' },
+        { id: 1, choice: 'Véc tơ tịnh tiến' },
+        { id: 2, choice: 'Không lựa chọn nào đúng' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question:
+        'Trong tịnh tiến 2 chiều, một điểm (x, y) có thể dịch chuyển sang vị trí mới (x’, y’) bằng cách sử dụng phương trình',
+      choice: [
+        { id: 3, choice: 'x’=x+dx and y’=y+dy' },
+        { id: 0, choice: 'x’=x+dx and y’=y+dx' },
+        { id: 1, choice: 'X’=x+dy and Y’=y+dx' },
+        { id: 2, choice: 'X’=x-dx and y’=y-dy' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question: 'Phương trình của phép biến đổi tịnh tiến khi điểm biểu diễn dưới dạng tọa độ Đecác là',
+      choice: [
+        { id: 3, choice: 'P’=P+T' },
+        { id: 0, choice: 'P’=P-T' },
+        { id: 1, choice: 'P’=P*T' },
+        { id: 2, choice: 'P’=p' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question:
+        'Điền vào phần bỏ trống _________ là một phép biến đổi không biến đổi hình dạng (rigid body transformation) chỉ thay đổi vị trí đối tượng mà không làm biến dạng nó.',
+      choice: [
+        { id: 3, choice: 'B và D' },
+        { id: 0, choice: 'Quay' },
+        { id: 1, choice: 'Co dãn' },
+        { id: 2, choice: 'Tịnh tiến' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question: 'Một đoạn thẳng được tịnh tiến bằng cách áp dụng phương trình biến đổi',
+      choice: [
+        { id: 3, choice: 'P’=P+T' },
+        { id: 0, choice: 'Dx và Dy' },
+        { id: 1, choice: 'P’=P+P' },
+        { id: 2, choice: 'Chỉ B đúng' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question:
+        'Điền vào phần bỏ trống. Các đa giác được dịch chuyển bằng cách công thêm __________ vào vị trí tọa độ của mỗi đỉnh và thiết lập thuộc tính hiện tại.',
+      choice: [
+        { id: 3, choice: 'Véc tơ tịnh tiến' },
+        { id: 0, choice: 'Đường đi một đường thẳng' },
+        { id: 1, choice: 'Độ lệch' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question: 'Để thay đổi vị trí của một đường tròn hay elip chúng ta tịnh tiến',
+      choice: [
+        { id: 0, choice: 'Tọa độ tâm' },
+        { id: 3, choice: 'Tọa độ tâm và vẽ lại hình ở vị trí mới' },
+        { id: 1, choice: 'Các tạo độ biên' },
+        { id: 2, choice: 'Tất cả các lựa chọn trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question: 'Các phép biến đổi hình học afin bao gồm',
+      choice: [
+        { id: 0, choice: 'Tịnh tiến' },
+        { id: 3, choice: 'Tất cả đáp án trên' },
+        { id: 1, choice: 'Quay' },
+        { id: 2, choice: 'Co dãn' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question: 'Một phép quay hai chiều được áp dụng cho một đối tượng bằng cách ',
+      choice: [
+        { id: 0, choice: 'Đặt lại vị trí của đối tượng dọc theo một đường thẳng' },
+        { id: 3, choice: 'Đặt lại vị trí của đối tượng dọc theo một cung tròn' },
+        { id: 2, choice: 'Tất cả các lựa chọn trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question: 'Để sinh ra một phép quay, chúng ta phải mô tả',
+      choice: [
+        { id: 0, choice: 'Khoảng cách dx và dy' },
+        { id: 3, choice: 'Góc quay ϴ' },
+        { id: 1, choice: 'Khoảng cách quay' },
+        { id: 2, choice: 'Tất cả các lựa chọn trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question: 'Các giá trị dương trong phép quay của góc quay ϴ định nghĩa',
+      choice: [
+        { id: 0, choice: 'Góc quay ngược chiều kim đồng hồ xung quanh điểm cần quay' },
+        { id: 3, choice: 'Góc quay ngược chiều kim đồng hồ xung quanh tâm quay' },
+        { id: 1, choice: 'Tịnh tiến ngược chiều kim đồng hồ quanh tâm quay' },
+        { id: 2, choice: 'Hướng âm' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 14,
+      question: 'Trục quay vuông góc với mặt phẳng xy và đi qua một điểm chốt được gọi là',
+      choice: [
+        { id: 0, choice: 'Phép tịnh tiến' },
+        { id: 3, choice: 'Phép quay' },
+        { id: 1, choice: 'Phép có dãn' },
+        { id: 2, choice: 'Phép kéo' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 15,
+      question: 'Tọa độ Đềcac của một điểm trong hệ tọa độ cực là',
+      choice: [
+        { id: 3, choice: 'X’=r cos (Ф +ϴ) and Y’=r sin (Ф +ϴ)' },
+        { id: 0, choice: 'X’=r cos (Ф +ϴ) and Y’=r cos (Ф +ϴ)' },
+        { id: 1, choice: 'X’=r cos (Ф -ϴ) and Y’=r cos (Ф -ϴ)' },
+        { id: 2, choice: 'X’=r cos (Ф +ϴ) and Y’=r sin (Ф -ϴ)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 16,
+      question: 'Phương trình phép quay 2 chiều là',
+      choice: [
+        { id: 0, choice: 'P’=P+T' },
+        { id: 3, choice: 'P’=R*P' },
+        { id: 1, choice: 'P’=P*P' },
+        { id: 2, choice: 'P’=R+P' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 17,
+      question: 'Điền vào phần bỏ trống ________ là phép biến đổi di chuyển đối tượng theo quĩ đạo tròn',
+      choice: [
+        { id: 0, choice: 'Kéo' },
+        { id: 3, choice: 'Quay' },
+        { id: 1, choice: 'Co dãn' },
+        { id: 2, choice: 'Tịnh tiến' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 18,
+      question: 'Một elip có thể quay quanh tâm của nó bằng cách quay',
+      choice: [
+        { id: 3, choice: 'Trục lớn, trục nhỏ' },
+        { id: 0, choice: 'Các điểm đầu mút' },
+        { id: 1, choice: 'Không lựa chọn nào ở trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 19,
+      question: 'Chỉ ra phép biến đổi được sử dụng để thay đổi kích cỡ của đối tượng',
+      choice: [
+        { id: 3, choice: 'Co dãn' },
+        { id: 0, choice: 'Quay' },
+        { id: 1, choice: 'Tịnh tiến' },
+        { id: 2, choice: 'Phản xạ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 20,
+      question: 'Phương trình của phép co dãn 2 chiều',
+      choice: [
+        { id: 0, choice: 'P’=R+S' },
+        { id: 3, choice: 'P’=S*P' },
+        { id: 1, choice: 'P’=P+T' },
+        { id: 2, choice: 'P’=P*R' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 21,
+      question: 'Co dãn một hình đa giác bằng cách tính',
+      choice: [
+        { id: 0, choice: 'Chia hệ số co dãn (x,y) cho từng đỉnh' },
+        { id: 3, choice: 'Nhân hệ số co dãn (x, y) với từng đỉnh' },
+        { id: 1, choice: 'Các tọa độ tâm' },
+        { id: 2, choice: 'Các tọa độ đỉnh' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 22,
+      question: 'Nếu các hệ số co dãn sx và sy < 1 thì',
+      choice: [
+        { id: 3, choice: 'Phép biến đổi giảm kích cỡ đối tượng' },
+        { id: 0, choice: 'Phép biến đổi tăng kích cỡ đối tượng' },
+        { id: 1, choice: 'Phép biến đổi làm xiên đối tượng' },
+        { id: 2, choice: 'Không đối tượng nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 23,
+      question: 'Nếu giá trị của các hệ số co dãn sx và sy bằng nhau thì',
+      choice: [
+        { id: 3, choice: 'Phép biến đổi là phép co dãn đồng nhất' },
+        { id: 1, choice: 'Phép co dãn không thể thực hiện được' },
+        { id: 2, choice: 'Phép biến đổi là phép quay đồng nhất' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 24,
+      question: 'Các đối tượng được biến đổi theo phương trình P’=S*P có thể là',
+      choice: [
+        { id: 3, choice: 'B và C' },
+        { id: 0, choice: 'Bị co dãn' },
+        { id: 1, choice: 'Bị xác định lại vị trí' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 25,
+      question: 'Chúng ta kiểm soát vị trí của đối tượng bị co dãn bắng cách chọn một điểm được biết đến là',
+      choice: [
+        { id: 3, choice: 'Điểm cố định (Fixed point)' },
+        { id: 0, choice: 'Điểm xoay (Pivot point)' },
+        { id: 1, choice: 'Co dãn không đồng nhất' },
+        { id: 2, choice: 'Co dãn đồng nhất' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 26,
+      question: 'Nếu các giá trị co dãn là sx=1 và sy=1 thì',
+      choice: [
+        { id: 0, choice: 'Đối tượng bị giảm kích cỡ' },
+        { id: 3, choice: 'Đối tượng không thay đổi kích cỡ' },
+        { id: 1, choice: 'Biến dạng bức ảnh' },
+        { id: 2, choice: 'Đối tượng bị tăng kích cỡ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 27,
+      question: 'Các đa giác bị co dãn bởi áp dụng phương trình biến đổi sau.',
+      choice: [
+        { id: 3, choice: 'X’=x * Sx + Xf(1-Sx) and Y’=y * Sy + Yf(1-Sy)' },
+        { id: 0, choice: 'X’=x * Sx * Xf(1-Sx) and Y’=y * Sy * Yf(1-Sy)' },
+        { id: 1, choice: 'X’=x * Sx + Xf(1-Sx) and Y’=y * Sy – Yf(1-Sy)' },
+        { id: 2, choice: 'X’=x * Sx + Xf(1+Sx) and Y’=y * Sy + Yf(1+Sy)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 28,
+      question: 'Biểu diễn dạng ma trận của phép tịnh tiến trong hệ tọa độ đồng là',
+      choice: [
+        { id: 3, choice: 'P’=T*P' },
+        { id: 0, choice: 'P’=T+P' },
+        { id: 1, choice: 'P’=S*P' },
+        { id: 2, choice: 'P’=R*P' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 29,
+      question: 'Nếu giá trị của các hệ số co dãn sx và sy không bằng nhau thì',
+      choice: [
+        { id: 0, choice: 'Phép biến đổi là phép co dãn đồng nhất' },
+        { id: 3, choice: 'Phép biến đổi là phép co dãn không đồng nhất' },
+        { id: 1, choice: 'Phép co dãn không thể thực hiện được' },
+        { id: 2, choice: 'Không phải lựa chọn {Đ} cũng không phải lựa chọn {T1}' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 30,
+      question: 'Biểu diễn mà trận cho biến đổi co dãn trong hệ tọa độ đồng nhất là',
+      choice: [
+        { id: 0, choice: 'P’=dx+dy' },
+        { id: 3, choice: 'P’=S*P' },
+        { id: 1, choice: 'P’=dx+dy' },
+        { id: 2, choice: 'P’=R*P' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 31,
+      question: 'Biểu diễn mà trận cho phép quay trong hệ tọa độ đồng nhất là',
+      choice: [
+        { id: 3, choice: 'P’=R*P' },
+        { id: 0, choice: 'P’=T+P' },
+        { id: 1, choice: 'P’=S*P' },
+        { id: 2, choice: 'P’=dx+dy' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 32,
+      question: 'Việc sử dụng của hệ tọa độ đồng nhất và biểu diễn ma trận là để',
+      choice: [
+        { id: 0, choice: 'Thực hiện phép kéo' },
+        { id: 3, choice: 'Biểu diễn các phép biến đổi theo một cách đồng nhất' },
+        { id: 1, choice: 'Thực hiện phép quay' },
+        { id: 2, choice: 'Thực diễn co dãn' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 33,
+      question:
+        'Nếu một điểm được biểu diễn trong hệ tọa độ đồng nhất thì cặp (x, y) trông hệ tạo độ Đecac sẽ được biểu diễn như sau',
+      choice: [
+        { id: 3, choice: '(x’, y’, w)' },
+        { id: 0, choice: '(x’, y’, w)' },
+        { id: 1, choice: '(x, y, z)' },
+        { id: 2, choice: '(x’, y’, z’)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 34,
+      question: 'Trong phép biến đổi hai chiều giá trị thành phần tọa độ thứ 3 w=?',
+      choice: [
+        { id: 3, choice: 1 },
+        { id: 0, choice: 0 },
+        { id: 1, choice: -1 },
+        { id: 2, choice: 'Bất cứ giá trị nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 35,
+      question:
+        'Chúng ta có thể kết hợp các phép biến đổi 2 chiều thành một phép biến đổi dùng biểu diễn các điểm trong hệ trục tọa độ đồng nhất bằng cách mở rộng biểu diễn ma trận',
+      choice: [
+        { id: 0, choice: 'ma trận 2 x 2 thành ma trận 4x4 ' },
+        { id: 3, choice: 'ma trận 2 x 2 thành ma trận 3x3' },
+        { id: 1, choice: 'ma trận 3 x 3 thành ma trận 2x 2' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 36,
+      question: 'Biểu diễn tọa độ trong hệ trục tọa độ đồng nhất có thể viết như sau',
+      choice: [
+        { id: 0, choice: '(h.x, h.y, h.z)' },
+        { id: 3, choice: '(h.x, h.y, h)' },
+        { id: 1, choice: '(x, y, h.z)' },
+        { id: 2, choice: '(x,y,z)' },
+      ],
+      answer: 3,
+    },
+  ],
+  XacDinhBeMatHien: [
+    {
+      id: 1,
+      question: 'Các bề mặt bị khóa hoặc ẩn trong khung cảnh 3 chiều được gọi là',
+      choice: [
+        { id: 3, choice: 'Các bề mặt ẩn (Hidden surface)' },
+        { id: 0, choice: 'Bộ đệm khung (Frame buffer)' },
+        { id: 1, choice: 'Cây tứ phân (Quad tree)' },
+        { id: 2, choice: 'Bề mặt bị mất (Lost surface)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question: 'Nhiệm vụ của bài toán loại bỏ bề mặt ẩn là',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Loại bỏ bề mặt ẩn (Removal of hidden surface)' },
+        { id: 1, choice: 'Nhận diện các bề mặt ẩn (Identification of hidden surface)' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Tại sao chúng ta cần phải loại bỏ bề mặt ẩn',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Để hiển thị cảnh thực' },
+        { id: 1, choice: 'Để xác định bề mặt hiện gần nhất' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Thuật toán của bài toán loại bỏ bề mặt ẩn là',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
+        { id: 1, choice: 'Chính xác theo ảnh (Image-space method)' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question:
+        'Phương pháp dựa trên nguyên lý so sánh các đối tượng và các phần của đối tượng với nhau để tìm ra thành phần ẩn và thành phần hiển thị được gọi là',
+      choice: [
+        { id: 3, choice: 'Chính xác theo đối tượng (Object-space method)' },
+        { id: 0, choice: 'Chính xác theo ảnh (Image-space method)' },
+        { id: 1, choice: 'Chính xác theo bề mặt (Surface-space method' },
+        { id: 2, choice: 'Cả A và B' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question:
+        'Phương pháp dựa trên nguyên lý kiểm cha điểm hiển thị với mỗi vị trí điểm ảnh trên mặt phẳng chiếu được gọi là',
+      choice: [
+        { id: 3, choice: 'Chính xác theo ảnh (Image-space method)' },
+        { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
+        { id: 1, choice: 'Cả A và B' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question: 'Các kiểu của thuật toán loại bỏ bề mặt ẩn',
+      choice: [
+        { id: 3, choice: 'Tất cả các đáp án trên' },
+        {
+          id: 0,
+          choice: 'So sánh độ sâu, Z-buffẻ, loại bỏ mặt quay vào trong (Depth comparison, Zbuffer, back-face removal)',
+        },
+        { id: 1, choice: 'Thuật toán dòng quét, thuật toán ưu tiên (Scan line algorithm, priority algorithm)' },
+        { id: 2, choice: 'Phân hoạch nhị phân, chia nhỏ vùng (BSP method, area subdivision method)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Thuật toán bề mặt nào dựa trên khía cạnh độ sâu?',
+      choice: [
+        { id: 0, choice: 'BSP ' },
+        { id: 3, choice: 'Z-buffer' },
+        { id: 1, choice: 'Loại bỏ mặt quay vào trong' },
+        { id: 2, choice: 'Chia nhỏ vùng' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question: 'Thuật toán tương thích với dòng quét được phát triển bởi',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Wylie' },
+        { id: 1, choice: 'Evans' },
+        { id: 2, choice: 'Cat mull' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question: '“Ray-tracing” (theo dấu tia) là mở rộng của',
+      choice: [
+        { id: 0, choice: 'Ray sampling' },
+        { id: 3, choice: 'Ray casting' },
+        { id: 1, choice: 'Ray calling' },
+        { id: 2, choice: 'Ray coherence' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question: 'Z -buffer là thuật toán',
+      choice: [
+        { id: 3, choice: 'Đơn giản nhất' },
+        { id: 0, choice: 'Không lựa chọn nào' },
+        { id: 1, choice: 'Rộng nhất' },
+        { id: 2, choice: 'Phức tạp nhất' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question: 'Kiểu cây nào của cấu trúc dữ liệu mà mỗi nút trong có 4 nút con',
+      choice: [
+        { id: 3, choice: 'Cây tứ phân (Quad tree)' },
+        { id: 0, choice: 'Không lựa chọn nào' },
+        { id: 1, choice: 'Cây 4 cạnh (Edge quad tree)' },
+        { id: 2, choice: 'Cây 4 điểm (Point quad tree)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question: 'Thuật toán người thợ sơn dựa trên thuộc tính của',
+      choice: [
+        { id: 0, choice: 'Không lựa chọn nào' },
+        { id: 3, choice: 'Bộ đệm khung (Frame buffer)' },
+        { id: 1, choice: 'Bộ đệm độ sâu (Depth buffer)' },
+        { id: 2, choice: 'Đa giác (Polygon)' },
+      ],
+      answer: 3,
+    },
+  ],
+  DuongCongVaBeMat: [
+    {
+      id: 1,
+      question: 'Tham số chính của thuộc tính đường cong và bề mặt là',
+      choice: [
+        { id: 3, choice: 'Tất cả đáp án trên' },
+        { id: 0, choice: 'Kiểu (Type)' },
+        { id: 1, choice: 'Độ rộng (Width)' },
+        { id: 2, choice: 'Màu sắc (Color)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question: 'Các đường cong mành hóa với các độ rộng khác nhau có thể được hiển thị sử dụng',
+      choice: [
+        { id: 3, choice: 'Các nhịp ngang hoặc dọc (Horizontal and vertical spans)' },
+        { id: 1, choice: 'Các nhịp ngang (Horizontal spans)' },
+        { id: 2, choice: 'Các nhịp dọc (Vertical spans)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Nếu độ lớn của hệ số góc đoạn cong nhỏ hơn 1 thì',
+      choice: [
+        { id: 0, choice: 'Chúng ta có thể vẽ các nhịp ngang' },
+        { id: 3, choice: 'Chúng ta có thể vẽ các nhịp dọc' },
+        { id: 2, choice: 'Tất cả các lựa chọn trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Nếu hệ số góc là 1 thì đường tròn, elip và các loại đường cong khác sẽ ở dạng',
+      choice: [
+        { id: 0, choice: 'Dày (Thick)' },
+        { id: 3, choice: 'Nhỏ nhất (Thinnest)' },
+        { id: 1, choice: 'Lớn (Big)' },
+        { id: 2, choice: 'Gồ ghề (Rough)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question: 'Một trong các phương pháp hiển thị đường con dày là',
+      choice: [
+        { id: 0, choice: 'Độ rộng (Curve width)' },
+        { id: 3, choice: 'Hệ số góc (Curve slope)' },
+        { id: 1, choice: 'Đầu mút (Curve cap)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question:
+        'Mặt nạ điểm ảnh (pixel masks) để thực thi lựa chọn kiểu đường thẳng được sử dụng trong thuật toán sau để tạo ra các mẫu gạch (dashed) hoặc chấm (dotted)',
+      choice: [
+        { id: 3, choice: 'Thuật toán đường cong mành (Raster curve algorithm)' },
+        { id: 0, choice: 'Thuật toán đường thẳng mành (Raster line algorithm)' },
+        { id: 1, choice: 'Thuật toán quét mành (Raster scan algorithm)' },
+        { id: 2, choice: 'Thuật toán đường cong ngẫu nhiên (Random curve algorithm)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question:
+        'Chúng ta có thể sinh ra các mẫu gạch (dashed) trong các mẫu 1/8 cung tròn (octant), đoạn của hình tròn, đoạn nằm ngang sử dụng ',
+      choice: [
+        { id: 3, choice: 'Tính đối xứng của đường tròn (Circle symmetry)' },
+        { id: 1, choice: 'Hệ số góc đoạn cong (Curve slope)' },
+        { id: 2, choice: 'Đường tròn (Circles)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Chức năng của mặt nạ điểm ảnh (pixel mask) là',
+      choice: [
+        {
+          id: 3,
+          choice: 'Để hiện thị mẫu gạch (dashes) và khoảng trống giữa các mẫu gạch (inter dash spaces) theo hệ số góc',
+        },
+        { id: 0, choice: 'Để hiển thị thuộc tính cong' },
+        { id: 1, choice: 'Để hiển thị các đường cong dày' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question:
+        'Nếu chúng ta muốn hiển thị các mẫu gạch có độ dài cố định (constant-length dashes), chúng ta cần phải.',
+      choice: [
+        { id: 0, choice: 'Điều chỉnh số lượng các chấm' },
+        { id: 3, choice: 'Điều chỉnh số lượng điểm ảnh trong mỗi mẫu gạch' },
+        { id: 1, choice: 'Sử dụng các hàm kiểu đường thẳng' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question: 'Các đường cong được hiển thị với các bút hình chữ nhật sẽ',
+      choice: [
+        { id: 3, choice: 'Mảnh hơn và hệ số góc nhỏ hơn 1 (Thicker and magnitude slope is 1)' },
+        { id: 0, choice: 'Mảnh hơn (Thinner)' },
+        { id: 1, choice: 'Dày hơn và hệ số góc lớn hơn 1 (Thicker and magnitude slope >1' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question:
+        'Điền vào phần bỏ trống ______là một dải linh hoạt (flexible strip) được sử dụng để tạo ra đường cong mượt sử dụng một tập các điểm.',
+      choice: [
+        { id: 3, choice: 'Đường spline (Spline)' },
+        { id: 0, choice: 'Phương pháp dòng quét (Scan-line method)' },
+        { id: 1, choice: 'Phương pháp sắp xếp độ sâu (Depth-sorting method' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question: 'Kiểu của đường cong spline là',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Đường spline mở (Open spline)' },
+        { id: 1, choice: 'Đường spline đóng (Closed spline)' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question: 'Spline bậc 3 là',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: 'Đơn giản để tính toán' },
+        { id: 1, choice: 'Cung cấp các đường cong liên tục' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 14,
+      question: 'Dạng tham số của đường spline 3D là',
+      choice: [
+        { id: 0, choice: 'X=a0,y=b0,z=c0' },
+        { id: 3, choice: 'X=f(t),y=g(t),z=h(t)' },
+        { id: 1, choice: 'F(t)=0,g(t)=0,h(t)=0' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+  ],
+  AnhSang: [
+    {
+      id: 1,
+      question: 'Hai mô hình màu là',
+      choice: [
+        { id: 3, choice: 'RGB và CMYK' },
+        { id: 0, choice: 'RGB và CMKY ' },
+        { id: 1, choice: 'RBG và CYMK ' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question: 'Mô hình RGB được sử dụng cho',
+      choice: [
+        { id: 3, choice: 'Màn hình máy tính' },
+        { id: 0, choice: 'In ấn' },
+        { id: 1, choice: 'Tô màu' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Mô hình CMYK được sử dụng cho',
+      choice: [
+        { id: 0, choice: 'Tô màu' },
+        { id: 3, choice: 'In ấn' },
+        { id: 1, choice: 'Màn hình máy tính' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Phần giao của 3 màu cơ bản RGB sẽ tạo ra màu',
+      choice: [
+        { id: 3, choice: 'Trắng' },
+        { id: 0, choice: 'Đen' },
+        { id: 1, choice: 'Tím' },
+        { id: 2, choice: 'Xanh nước biển' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question: 'Phần giao của 3 màu cơ bản CMYK sẽ tạo ra màu',
+      choice: [
+        { id: 0, choice: 'Trắng' },
+        { id: 3, choice: 'Đen' },
+        { id: 1, choice: 'Tím' },
+        { id: 2, choice: 'Xanh nước biển' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question:
+        'Kỹ thuật tạo bóng nào dưới đây (shading techniques) tạo ra hiệu ứng bề mặt phẳng (faceted appearance)?',
+      choice: [
+        { id: 0, choice: 'flat' },
+        { id: 3, choice: 'Gouraud' },
+        { id: 1, choice: 'Phong' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question: 'Kỹ thuật tạo bóng nào dưới dây cho phép miêu tả điểm sang (specular highlights)?',
+      choice: [
+        { id: 0, choice: 'flat' },
+        { id: 3, choice: 'Phong' },
+        { id: 1, choice: 'Gouraud' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Khẳng định nào dưới đây về các mô hình tạo bóng là đúng',
+      choice: [
+        {
+          id: 0,
+          choice: 'Tạo bóng Phong giả định cùng một vectơ pháp tuyến được áp dụng cho mọi điểm ảnh trên bề mặt',
+        },
+        {
+          id: 3,
+          choice:
+            'Khi áp dụng tạo bóng phẳng, mô hình ánh sang chỉ được áp dụng một lần cho mỗi đa giác, và mọi điểm ảnh trên đa giác đó nhận cùng giá trị cường độ sáng',
+        },
+        { id: 1, choice: 'Tạo bóng Gouraud luôn có điểm sáng' },
+        { id: 2, choice: 'Tạo bóng cố định (Constant) yêu cầu tính toán phức tạp hơn tạo bóng Phong' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question:
+        'Trong thuật toán dò tia, nếu ta thêm nhiễu loạn nhỏ vào mỗi tia, điều đó ảnh hưởng thế nào đến hình ảnh kết quả',
+      choice: [
+        { id: 0, choice: 'Biến dạng ảnh kết quả' },
+        { id: 3, choice: 'Mờ ảnh kết quả' },
+        { id: 1, choice: 'Xuất hiện hạt trong ảnh kết quả' },
+        { id: 2, choice: 'Tăng hiện tượng rang cưa trong ảnh kết quả' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question:
+        'Khi sử dụng mô hình phản chiếu Phong (Phong Reflectance Model), việc tính các kênh màu được thực hiện như sau',
+      choice: [
+        { id: 3, choice: 'các kênh đỏ, xanh lá, xanh dương được tính độc lập.' },
+        { id: 0, choice: 'các kênh đỏ, xanh lá, xanh dương được tính cùng nhau.' },
+        { id: 1, choice: 'các kênh đỏ, xanh lá được tính độc lập.' },
+        { id: 2, choice: 'các xanh lá, xanh dương được tính độc lập.' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question:
+        'Mô hình tạo bóng nào yêu cầu tính toán nhiều hơn: mô hình tạo bóng Phong, mô hình tạo bóng Gouraud, mô hình tạo bóng phẳng ',
+      choice: [
+        { id: 3, choice: 'mô hình tạo bóng Phong ' },
+        { id: 0, choice: 'mô hình tạo bóng phẳng ' },
+        { id: 1, choice: 'Các mô hình có lượng tính toán như nhau' },
+        { id: 2, choice: 'mô hình tạo bóng Gouraud ' },
+      ],
+      answer: 3,
+    },
+  ],
+
   OpenGL: [
     {
       question: 'Ý nghĩa của i,f,v,d… theo qui ước trong các hàm của OpenGL?',

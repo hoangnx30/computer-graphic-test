@@ -3,7 +3,17 @@ import TabsComponent from '../../components/Tabs'
 import { mixArray } from '../../helper/mixArray'
 import data from './data'
 
-const { ThietBi, CacThuatToanToMau, OpenGL, CacThuatToanVeDuongThangDuongTron } = data
+const {
+  ThietBi,
+  CacThuatToanToMau,
+  OpenGL,
+  CacThuatToanVeDuongThangDuongTron,
+  CacThuatToanCatXen,
+  CacPhepBienDoi,
+  XacDinhBeMatHien,
+  AnhSang,
+  DuongCongVaBeMat,
+} = data
 
 // const mixData = (data) => {
 //   const mixQuestion = mixArray(data)
@@ -20,11 +30,11 @@ const tabs = [
     tab: 'Các thuật toán vẽ đường thẳng, đường tròn',
     component: <MainQuestionsComponent listQuestions={mixArray(CacThuatToanVeDuongThangDuongTron)} />,
   },
-  { tab: 'Các thuật toán cắt xén', component: <div>Component 4</div> },
-  { tab: 'Các phép biến đổi', component: <div>Component 5</div> },
-  { tab: 'Đường cong và bề mặt', component: <div>Component 6</div> },
-  { tab: 'Xác định bề mặt hiện', component: <div>Component 7</div> },
-  { tab: 'Ánh sáng', component: <div>Component 8</div> },
+  { tab: 'Các thuật toán cắt xén', component: <MainQuestionsComponent listQuestions={mixArray(CacThuatToanCatXen)} /> },
+  { tab: 'Các phép biến đổi', component: <MainQuestionsComponent listQuestions={mixArray(CacPhepBienDoi)} /> },
+  { tab: 'Đường cong và bề mặt', component: <MainQuestionsComponent listQuestions={mixArray(DuongCongVaBeMat)} /> },
+  { tab: 'Xác định bề mặt hiện', component: <MainQuestionsComponent listQuestions={mixArray(XacDinhBeMatHien)} /> },
+  { tab: 'Ánh sáng', component: <MainQuestionsComponent listQuestions={mixArray(AnhSang)} /> },
   { tab: 'OpenGL ', component: <MainQuestionsComponent listQuestions={mixArray(OpenGL)} /> },
 ]
 
