@@ -718,6 +718,332 @@ const data = {
       answer: 3,
     },
   ],
+  CacThuatToanVeDuongThangDuongTron: [
+    {
+      id: 1,
+      question: 'Phương trình đường thẳng dưới dạng hệ số góc (Cartesian slope-intercept equation) có dạng như sau',
+      choice: [
+        { id: 0, choice: 'y = b.x + m' },
+        { id: 3, choice: 'y = m.x + b' },
+        { id: 1, choice: 'y = x.x + m' },
+        { id: 2, choice: 'y = b + m.m' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 2,
+      question:
+        'Đối với các đường thẳng có hệ số góc m với |m|<1, khi áp dụng thuật toán đơn giảng để vẽ đường thẳng thì',
+      choice: [
+        { id: 3, choice: 'Tăng x lên 1 đơn vị rồi tính y' },
+        { id: 0, choice: 'Tăng y lên 1 đơn vị rồi tính x' },
+        { id: 1, choice: 'Cả A và B' },
+        { id: 2, choice: 'Không lựa chọn nào ở trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 3,
+      question: 'Trong hệ thống mành hóa, các đường thẳng được vẽ dưới dạng',
+      choice: [
+        { id: 0, choice: 'Đường thẳng' },
+        { id: 3, choice: 'Điểm ảnh' },
+        { id: 1, choice: 'Chấm' },
+        { id: 2, choice: 'Không lựa chọn nào ở trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 4,
+      question: 'Tên đầy đủ của DDA trong thuật toán DDA là',
+      choice: [
+        { id: 3, choice: 'Digital differential analyzer' },
+        { id: 0, choice: 'Digital difference analyzer' },
+        { id: 1, choice: 'Direct differential analyzer' },
+        { id: 2, choice: 'Data differential analyzer' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 5,
+      question:
+        'Thuật toán nào là phương pháp nhanh nhất tìm vị trí của điểm ảnh khi vẽ đường thẳng trong số các thuật toán dưới đây?',
+      choice: [
+        { id: 3, choice: 'Thuật toán vẽ đường thẳng Bresenham' },
+        { id: 0, choice: 'Thuật toán vẽ đường thẳng dùng đường thẳng hệ số góc đơn giản' },
+        { id: 1, choice: 'Thuật toán điểm giữa vẽ đường thẳng ' },
+        { id: 2, choice: 'Thuật toán DDA vẽ đường thẳng ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question: 'Một thuật toán mành hóa vẽ đường thẳng chính xác và hiệu quả là',
+      choice: [
+        { id: 0, choice: 'Thuật toán vẽ đường thẳng dùng đường thẳng hệ số góc đơn giản' },
+        { id: 3, choice: 'Thuật toán vẽ đường thẳng Bresenham' },
+        { id: 1, choice: 'Thuật toán DDA vẽ đường thẳng' },
+        { id: 2, choice: 'Thuật toán điểm giữa vẽ đường thẳng ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 7,
+      question: 'Trong thuật toán Bresendham vẽ đường thẳng, Nếu d1 < d2 thì tham số quyết định Pk là______',
+      choice: [
+        { id: 3, choice: 'Âm' },
+        { id: 0, choice: 'Dương' },
+        { id: 1, choice: 'Tương đương' },
+        { id: 2, choice: 'A hoặc B' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 8,
+      question: 'Thuật toán vẽ đường thẳng nào là tốt nhất trong việc cân bằng tải xử lý giữa các bộ xử lý?',
+      choice: [
+        { id: 3, choice: 'Thuật toán song song vẽ đường thẳng' },
+        { id: 0, choice: 'Thuật toán DDA vẽ đường thẳng' },
+        { id: 1, choice: 'Thuật toán điểm giữa vẽ đường thẳng ' },
+        { id: 2, choice: 'Thuật toán vẽ đường thẳng Bresenham' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 9,
+      question: 'Thuật toán sử dụng nhiều bộ xử lý để tính toán các vị trí của điểm ảnh là',
+      choice: [
+        { id: 3, choice: 'Thuật toán song song vẽ đường thẳng' },
+        { id: 0, choice: 'Thuật toán DDA vẽ đường thẳng' },
+        { id: 1, choice: 'Thuật toán vẽ đường thẳng Bresenham' },
+        { id: 2, choice: 'Thuật toán điểm giữa vẽ đường thẳng ' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 10,
+      question: 'Tham chiếu tọa độ trong hàm vẽ chuỗi đường thẳng được chỉ ra như',
+      choice: [
+        { id: 3, choice: 'Giá trị tọa độ tuyệt đối (Absolute coordinate values' },
+        { id: 0, choice: 'Vị trí hiện tại (Current position)' },
+        { id: 1, choice: 'Giá trị tọa độ liên quan (Relative coordinate values)' },
+        { id: 2, choice: 'Giá trị tọa độ thực (Real coordinate values)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 11,
+      question: 'Để áp dụng phương pháp điểm giữa vẽ đường tròn, chúng ta định nghĩa',
+      choice: [
+        { id: 0, choice: 'circle(x, y)= x + y2 - r 2' },
+        { id: 3, choice: 'circle(x, y)= x 2+ y2 - r 2' },
+        { id: 1, choice: 'circle(x, y)= x 2+ y- r' },
+        { id: 2, choice: 'circle(x, y)= x 2+ y2 - z 2' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 12,
+      question:
+        'Điền vào phần bỏ trống _______ được định nghĩa là tập các điểm sao tổng khoảng cách từ điểm đó tới 2 điểm cố định cho trước không đổi.',
+      choice: [
+        { id: 0, choice: 'Đường tròn' },
+        { id: 3, choice: 'Elip' },
+        { id: 1, choice: 'Đường thẳng' },
+        { id: 2, choice: 'Tam giác' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 13,
+      question:
+        'Nếu đường biên được mô tả với một màu, thì thuật toán xuất phát từ một điểm xử lý từng điểm ảnh cho đến khi gặp được màu biên được gọi là',
+      choice: [
+        { id: 3, choice: 'Thuật toán tô màu loang (Flood-fill algorithm)' },
+        { id: 0, choice: 'Thuật toán đường cong song song (Parallel curve algorithm)' },
+        { id: 1, choice: 'Thuật toán tô biên (Boundary-fill algorithm)' },
+        { id: 2, choice: 'Thuật toán tô màu dòng quét (Scan-line fill algorithm)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 14,
+      question: 'Thuật toán tô phủ loang dùng quan hệ láng giềng nào',
+      choice: [
+        { id: 3, choice: 'Cả B và C' },
+        { id: 0, choice: '4 láng giềng' },
+        { id: 1, choice: '8 láng giềng' },
+        { id: 2, choice: 'Chỉ B' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 15,
+      question: 'Thuộc tính cơ bản của đoạn thẳng là',
+      choice: [
+        { id: 0, choice: 'Kiểu' },
+        { id: 3, choice: 'Tất cả đáp án' },
+        { id: 1, choice: 'Độ rộng' },
+        { id: 2, choice: 'Màu' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 16,
+      question: 'Một đường thẳng tô nét đứt (dashed line) được hiển thị bằng cách sinh ra _________.',
+      choice: [
+        { id: 3, choice: 'Inter dash spacing' },
+        { id: 0, choice: 'Very short dashes' },
+        { id: 1, choice: 'Cả A và B' },
+        { id: 2, choice: 'A hoặc B' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 17,
+      question: 'Một đường thẳng tô dưới dạng điểm (dotted line) có thể được hiển thị bằng cách sinh ra',
+      choice: [
+        { id: 0, choice: 'Very short dashes với khoảng trắng nhỏ hơn hoặc bằng cỡ của dash' },
+        { id: 3, choice: 'Very short dashes với khoảng trắng lớn hơn hoặc bằng cỡ của dash' },
+        { id: 1, choice: 'Very long dashes với khoảng trắng lớn hơn hoặc bằng cỡ của dash' },
+        { id: 2, choice: 'Dots' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 18,
+      question: 'Lựa chọn nào dưới đây không phải kiểu đường thẳng (line-type)?',
+      choice: [
+        { id: 3, choice: 'Chỉ C đúng' },
+        { id: 0, choice: 'Dashed line' },
+        { id: 1, choice: 'Dark line' },
+        { id: 2, choice: 'Dotted line' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 19,
+      question: 'Trong một ứng dụng, để thiết lập thuộc tính kiểu đường thẳng (line-type) chúng ta dùng câu lệnh',
+      choice: [
+        { id: 0, choice: 'SetLinetype(lt)' },
+        { id: 3, choice: 'setLinetype(lt)' },
+        { id: 1, choice: 'SETLINETYPE(lt)' },
+        { id: 2, choice: 'SETLINE()' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 20,
+      question:
+        'Thuật toán hiển thị thuộc tính kiểu đường thẳng (line-type) bằng cách vẽ từng nhịp điểm ảnh (pixel span) là',
+      choice: [
+        { id: 3, choice: 'Raster line algorithm' },
+        { id: 0, choice: 'Random scan algorithm' },
+        { id: 1, choice: 'Raster scan algorithm' },
+        { id: 2, choice: 'Random line algorithm' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 21,
+      question: 'Mặt nạ điểm ảnh (Pixel mask) có nghĩa là',
+      choice: [
+        { id: 3, choice: 'Chuỗi chứa 0 và 1' },
+        { id: 0, choice: 'Chuỗi chỉ chứa 0' },
+        { id: 1, choice: 'Chuỗi chỉ chứa 1' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 22,
+      question: 'Một “heavy line” trên màn hình video có thể hiển thị như',
+      choice: [
+        { id: 3, choice: 'Adjacent parallel lines' },
+        { id: 0, choice: 'Adjacent perpendicular lines' },
+        { id: 1, choice: 'Cả A và B' },
+        { id: 2, choice: 'Hoặc A hoặc B' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 23,
+      question: 'Tham số cho “setLineWidthScaleFactor (lw) “ được mô tả là?',
+      choice: [
+        { id: 3, choice: 'Độ rộng của đường thẳng đang vẽ (Relative width of the line)' },
+        { id: 0, choice: 'Độ rộng chuẩn (Standard width)' },
+        { id: 1, choice: 'Độ dày của đường thẳng đang vẽ (Thickness of the line)' },
+        { id: 2, choice: 'Tất cả các lựa chọn trên' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 24,
+      question:
+        'Chúng ta có thể chỉnh hình dáng của các điểm cuối (line ends) của đường thẳng có bề ngoài tốt hơn sử dụng',
+      choice: [
+        { id: 0, choice: 'Line spacing' },
+        { id: 3, choice: 'Line caps' },
+        { id: 1, choice: 'Round cap' },
+        { id: 2, choice: 'More dots' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 25,
+      question: 'Độ dày đường thẳng (Thick line) được vẽ với ',
+      choice: [
+        { id: 3, choice: 'Tất cả các lựa chọn trên' },
+        { id: 0, choice: 'Butt caps' },
+        { id: 1, choice: 'Round caps' },
+        { id: 2, choice: 'Projecting square caps' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 26,
+      question: 'Chúng ta thiết lập giá trị màu đường thẳng (line-color value) trong PHIGS bằng hàm',
+      choice: [
+        { id: 3, choice: 'setPolylineColorIndex (lc)' },
+        { id: 0, choice: 'setline Color()' },
+        { id: 1, choice: 'Chỉ A đúng' },
+        { id: 2, choice: 'SETPOLYLINECOLORINDEX (lc)' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 27,
+      question:
+        'Điền vào phần bỏ trống Nếu góc giữa hai đoạn thẳng nối nhau là rất nhỏ thì ________ có thể sinh ra sự tăng đột biến làm biến dạng bề ngoài của polyline.',
+      choice: [
+        { id: 0, choice: 'Round join' },
+        { id: 3, choice: 'Miter join' },
+        { id: 1, choice: 'Bevel join' },
+        { id: 2, choice: 'Không lựa chọn nào' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 28,
+      question: 'Một đường thẳng được vẽ với màu nền thì',
+      choice: [
+        { id: 0, choice: 'Visible' },
+        { id: 3, choice: 'Invisible' },
+        { id: 1, choice: 'Visible or Invisible' },
+      ],
+      answer: 3,
+    },
+    {
+      id: 29,
+      question: 'Giá trị của tham số t nằm giữa',
+      choice: [
+        { id: 0, choice: '1 và 2' },
+        { id: 3, choice: '1 và 10' },
+        { id: 1, choice: '0 và 1' },
+        { id: 2, choice: '0 và 3' },
+      ],
+      answer: 3,
+    },
+  ],
   OpenGL: [
     {
       question: 'Ý nghĩa của i,f,v,d… theo qui ước trong các hàm của OpenGL?',
