@@ -25,11 +25,10 @@ const data = {
       question: 'Điền vào phần bỏ trống ________ được dùng để đo độ xoay vòng quay?',
       choice: [
         { id: 0, choice: 'Chiết áp (Potentiometers).' },
-        { id: 1, choice: 'Chỉ đáp án chiết áp đúng' },
         { id: 2, choice: 'Máy đo điện thế (Volta meter).' },
         { id: 3, choice: 'Tham số (Parameter).' },
       ],
-      answer: 1,
+      answer: 0,
     },
     {
       question: 'Thiết bị dùng để chỉ vị trí con trỏ trên màn hình là',
@@ -66,8 +65,6 @@ const data = {
       choice: [
         { id: 0, choice: 'Space ball' },
         { id: 1, choice: 'Trackball' },
-        { id: 2, choice: 'Không phải Trackball' },
-        { id: 3, choice: 'Chỉ có Space ball' },
       ],
       answer: 1,
     },
@@ -196,7 +193,6 @@ const data = {
       choice: [
         { id: 0, choice: 'Bộ nhận dạng tiếng nói (Speech recognizers)' },
         { id: 2, choice: 'Bảng lựa chọn bằng tiếp xúc (Touch panels)' },
-        { id: 1, choice: 'chi A' },
         { id: 3, choice: 'Tất cả các lựa chọn ở trên' },
       ],
       answer: 0,
