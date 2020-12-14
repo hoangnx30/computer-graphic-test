@@ -336,7 +336,7 @@ const data = {
       answer: 0,
     },
     {
-      question: 'Thiết bị chuyển đổi từ năng lượng điện thành ánh sang được gọi là?',
+      question: 'Thiết bị chuyển đổi từ năng lượng điện thành ánh sáng được gọi là?',
       choice: [
         { id: 1, choice: 'Màn hình tinh thể lỏng (Liquid-crystal displays)' },
         { id: 0, choice: 'Bộ phát (Emitters)' },
@@ -495,7 +495,6 @@ const data = {
         { id: 3, choice: 'Dung lượng cung cấp để lưu trữ 1 điểm ảnh trong bộ đệm khung' },
         { id: 0, choice: 'Màu trong bộ đệm khung' },
         { id: 1, choice: 'Màu RGB ' },
-        { id: 2, choice: 'Không a cũng không b' },
       ],
       answer: 3,
     },
@@ -528,7 +527,6 @@ const data = {
       choice: [
         { id: 3, choice: 'Trực tiếp trong bộ đệm khung (Directly in frame buffer)' },
         { id: 0, choice: 'Bảng tra màu (Color look-up table)' },
-        { id: 1, choice: 'A hoặc B' },
         { id: 2, choice: 'Bảng tra video (Video lookup table)' },
       ],
       answer: 3,
@@ -639,10 +637,10 @@ const data = {
       id: 15,
       question: 'Màu tô kết hợp với màu nền “ là',
       choice: [
-        { id: 3, choice: 'Cả A và B' },
         { id: 0, choice: 'Soft fill' },
         { id: 1, choice: 'Tint fill' },
         { id: 2, choice: 'Không lựa chọn nào' },
+        { id: 3, choice: 'Cả A và B' },
       ],
       answer: 3,
     },
@@ -650,10 +648,9 @@ const data = {
       id: 16,
       question: 'Thủ tục tô màu vân “Hatch fill” được gọi để vẽ',
       choice: [
-        { id: 3, choice: 'A hoặc B' },
         { id: 0, choice: 'Single hatching' },
         { id: 1, choice: 'Cross hatching' },
-        { id: 2, choice: 'Chỉ B đúng' },
+        { id: 3, choice: 'A hoặc B' },
       ],
       answer: 3,
     },
@@ -662,12 +659,11 @@ const data = {
       question:
         'Khi hai màu nền (background color) B1 và B2 được trộn với màu ”foreground color F”, kết quả được màu P được tính như sau',
       choice: [
-        { id: 3, choice: 'Chỉ A đúng' },
         { id: 0, choice: 'P=t0*F+t1*B1+(1-t0-t1)B2' },
         { id: 1, choice: 'P=t0*F-t1*B1+(1-t0-t1)B2' },
         { id: 2, choice: 'P=t0*F+t1*B1+(1+t0+t1)B2' },
       ],
-      answer: 3,
+      answer: 0,
     },
     {
       id: 18,
@@ -695,9 +691,9 @@ const data = {
       id: 20,
       question: 'Các lựa chọn cho tô màu một vùng được định nghĩa bao gồm một lựa chọn giữa __________',
       choice: [
-        { id: 3, choice: 'Cả A và B ' },
         { id: 0, choice: 'Màu đặc hoặc mẫu (Solid color or a pattern fill)' },
         { id: 1, choice: 'Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
+        { id: 3, choice: 'Cả A và B ' },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
