@@ -35,7 +35,7 @@ const data = {
       choice: [
         { id: 0, choice: 'Chuột (Mouse).' },
         { id: 1, choice: 'Phím điều khiển trò chơi (Joystick).' },
-        { id: 2, choice: 'Cả đáp án thứ nhất và thứ 2.' },
+        { id: 2, choice: 'Cả Phím điều khiển trò chơi (Joystick) và Găng tay cảm nhận (Data glove).' },
         { id: 3, choice: 'Găng tay cảm nhận (Data glove).' },
       ],
       answer: 0,
@@ -45,7 +45,7 @@ const data = {
       choice: [
         { id: 0, choice: 'Cảm biến quang học (Optical sensor)' },
         { id: 1, choice: 'Bi cuộn dưới đáy chuột (Rollers on the bottom of mouse)' },
-        { id: 2, choice: 'Cả đáp án thứ nhất và thứ 2' },
+        { id: 2, choice: 'Cả Cảm biến quang học (Optical sensor) và Bi cuộn dưới đáy chuột (Rollers on the bottom of mouse)' },
         { id: 3, choice: 'Cảm biến (Sensor)' },
       ],
       answer: 2,
@@ -100,8 +100,7 @@ const data = {
       answer: 2,
     },
     {
-      question: `Phím điều khiển trò chơi nhạy cảm áp suất (Pressure-sensitive joysticks) còn
-      được gọi là?`,
+      question: 'Phím điều khiển trò chơi nhạy cảm áp suất (Pressure-sensitive joysticks) còn được gọi là?',
       choice: [
         { id: 0, choice: 'Phím điều khiển đối xứng (Isometric joystick) ' },
         {
@@ -120,8 +119,7 @@ const data = {
       answer: 0,
     },
     {
-      question: `Thiết bị nào dưới đây được xây dựng với các cảm biến dùng để phát hiện chuyển
-      động bàn tay và ngón tay?`,
+      question: 'Thiết bị nào dưới đây được xây dựng với các cảm biến dùng để phát hiện chuyển động bàn tay và ngón tay?',
       choice: [
         { id: 0, choice: 'Bộ số hóa (Digitizers)' },
         { id: 1, choice: 'Găng tay cảm nhận (Data glove)' },
@@ -131,8 +129,7 @@ const data = {
       answer: 1,
     },
     {
-      question: `Thiết bị nào được sử dụng làm đầu vào là tọa độ 2 chiều bằng cách kích hoạt con
-      trỏ tay trên một bề mặt phẳng?`,
+      question: 'Thiết bị nào được sử dụng làm đầu vào là tọa độ 2 chiều bằng cách kích hoạt con trỏ tay trên một bề mặt phẳng?',
       choice: [
         {
           id: 0,
@@ -144,22 +141,21 @@ const data = {
         },
         {
           id: 2,
-          choice: 'Cả 1 & 2',
+          choice: 'Cả Graphic tablet & Data tablet',
         },
         {
           id: 3,
-          choice: 'Chỉ 2',
+          choice: 'Chỉ Data tablet',
         },
       ],
       answer: 2,
     },
     {
-      question: `Điền vào phần bỏ trống
-      ___________ được sử dụng để xác định vị trí trên data tablet?`,
+      question: 'Điền vào phần bỏ trống ___________ được sử dụng để xác định vị trí trên data tablet?',
       choice: [
         { id: 0, choice: 'Strip microphones' },
         { id: 1, choice: 'Signal strength' },
-        { id: 2, choice: `Hoặc Signal strength hoặc coded pulse` },
+        { id: 2, choice: 'Hoặc Signal strength hoặc coded pulse' },
         { id: 3, choice: `Coded pulse` },
       ],
       answer: 2,
@@ -206,7 +202,7 @@ const data = {
           choice: `Để nhập dữ liệu (To enter data)`,
         },
         { id: 2, choice: `Không a cũng không b` },
-        { id: 3, choice: `Cả a & b` },
+        { id: 3, choice: `Để khởi tạo các thao tác đồ họa (To initiate graphics operation) và Để nhập dữ liệu (To enter data)` },
       ],
       answer: 3,
     },
@@ -276,7 +272,7 @@ const data = {
         { id: 0, choice: 'Thiết bị vào (Input devices)' },
         { id: 1, choice: 'Thiết bị ra (Output devices)' },
         { id: 2, choice: 'Thiết bị trỏ (Pointing devices)' },
-        { id: 3, choice: 'Cả A và C' },
+        { id: 3, choice: 'Thiết bị vào và thiết bị trỏ' },
       ],
       answer: 3,
     },
@@ -297,7 +293,7 @@ const data = {
         { id: 0, choice: 'Bộ đệm khung (Frame buffer)' },
         { id: 1, choice: 'Bộ nhớ (Memory)' },
         { id: 2, choice: 'Bộ vi xử lý (Processor)' },
-        { id: 3, choice: 'B & C' },
+        { id: 3, choice: 'Bộ đệm khung (Frame buffer) & Bộ vi xử lý (Processor)' },
       ],
       answer: 0,
     },
@@ -319,7 +315,7 @@ const data = {
         { id: 1, choice: 'Ảnh (Picture)' },
         { id: 0, choice: 'Độ phân giải (Resolution)' },
         { id: 2, choice: 'Đại lượng không đổi (Persistence)' },
-        { id: 3, choice: 'A hoặc C' },
+        { id: 3, choice: 'Ảnh (Picture) hoặc Đại lượng không đổi ' },
       ],
       answer: 0,
     },
@@ -356,9 +352,9 @@ const data = {
         { id: 1, choice: 'Hệ thống quét ngẫu nhiên (Random-scan system)' },
         {
           id: 2,
-          choice: 'Chỉ A',
+          choice: 'Chỉ hệ thống quét ngẫu nhiên (Random-scan system)',
         },
-        { id: 3, choice: 'Cả A và B' },
+        { id: 3, choice: 'Cả hệ thống quét mành (Raster-scan system) và hệ thống quét ngẫu nhiên (Random-scan system)' },
       ],
       answer: 0,
     },
@@ -412,7 +408,7 @@ const data = {
           id: 2,
           choice: 'Hiệu ứng sương mù (Fog effect)',
         },
-        { id: 3, choice: 'Chỉ C' },
+        { id: 3, choice: 'Chỉ hiệu ứng sương mù(Fog effect)' },
       ],
       answer: 0,
     },
@@ -458,7 +454,9 @@ const data = {
           choice: `Tỉ lệ điểm ảnh chiều rộng so với chiều cao (Ratio of horizontal points to vertical
             points)`,
         },
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Tỉ lệ điểm ảnh chiều cao so với chiều rộng (Ratio of vertical points to horizontal
+          points) và tỉ lệ điểm ảnh chiều rộng so với chiều cao (Ratio of horizontal points to vertical
+            points)' },
       ],
       answer: 3,
     },
@@ -467,7 +465,8 @@ const data = {
       choice: [
         { id: 0, choice: 'Thiết bị trỏ (Pointing)' },
         { id: 1, choice: 'Thiết bị định vị (Positioning)' },
-        { id: 3, choice: 'Cả A và B' },
+        { id: 3, choice: 'Cả Thiết bị trỏ (Pointing) và Thiết bị định vị (Positioning)' },
+        { id: 3, choice: 'Cả Thiết bị trỏ (Pointing) và Thiết bị định vị (Positioning)' },
         {
           id: 2,
           choice: 'Không lựa chọn nào ở trên',
@@ -484,7 +483,7 @@ const data = {
         { id: 3, choice: 'Miền bao gồm 0 và các số nguyên dương' },
         { id: 0, choice: 'Miền từ 0 tới 1' },
         { id: 1, choice: 'Miền từ 0 tới -0' },
-        { id: 2, choice: 'Chỉ B đúng' },
+        { id: 2, choice: 'Chỉ Miền từ 0 tới -0 đúng' },
       ],
       answer: 3,
     },
@@ -640,7 +639,7 @@ const data = {
         { id: 0, choice: 'Soft fill' },
         { id: 1, choice: 'Tint fill' },
         { id: 2, choice: 'Không lựa chọn nào' },
-        { id: 3, choice: 'Cả A và B' },
+        { id: 3, choice: 'Cả Soft fill và Tint fill' },
       ],
       answer: 3,
     },
@@ -650,7 +649,7 @@ const data = {
       choice: [
         { id: 0, choice: 'Single hatching' },
         { id: 1, choice: 'Cross hatching' },
-        { id: 3, choice: 'A hoặc B' },
+        { id: 3, choice: 'Single hatching hoặc Cross hatching' },
       ],
       answer: 3,
     },
@@ -693,7 +692,7 @@ const data = {
       choice: [
         { id: 0, choice: 'Màu đặc hoặc mẫu (Solid color or a pattern fill)' },
         { id: 1, choice: 'Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
-        { id: 3, choice: 'Cả A và B ' },
+        { id: 3, choice: 'Cả Màu đặc hoặc mẫu (Solid color or a pattern fill) và Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
@@ -704,7 +703,7 @@ const data = {
       choice: [
         { id: 3, choice: 'Đỉnh tới đáy (Top to bottom)' },
         { id: 0, choice: 'Đáy tới đỉnh (Bottom to top)' },
-        { id: 1, choice: 'Cả A và B' },
+        { id: 1, choice: 'Cả Đỉnh tới đáy (Top to bottom) và Đáy tới đỉnh (Bottom to top)' },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
@@ -729,7 +728,7 @@ const data = {
       choice: [
         { id: 3, choice: 'Tăng x lên 1 đơn vị rồi tính y' },
         { id: 0, choice: 'Tăng y lên 1 đơn vị rồi tính x' },
-        { id: 1, choice: 'Cả A và B' },
+        { id: 1, choice: 'Cả Tăng x lên 1 đơn vị rồi tính y và Tăng y lên 1 đơn vị rồi tính x' },
         { id: 2, choice: 'Không lựa chọn nào ở trên' },
       ],
       answer: 3,
@@ -786,7 +785,7 @@ const data = {
         { id: 3, choice: 'Âm' },
         { id: 0, choice: 'Dương' },
         { id: 1, choice: 'Tương đương' },
-        { id: 2, choice: 'A hoặc B' },
+        { id: 2, choice: 'Âm hoặc Dương' },
       ],
       answer: 3,
     },
@@ -862,10 +861,10 @@ const data = {
       id: 14,
       question: 'Thuật toán tô phủ loang dùng quan hệ láng giềng nào',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả 4 láng giềng và 8 láng giềng' },
         { id: 0, choice: '4 láng giềng' },
         { id: 1, choice: '8 láng giềng' },
-        { id: 2, choice: 'Chỉ B' },
+        { id: 2, choice: 'Chỉ 4 láng giềng' },
       ],
       answer: 3,
     },
@@ -886,8 +885,8 @@ const data = {
       choice: [
         { id: 3, choice: 'Inter dash spacing' },
         { id: 0, choice: 'Very short dashes' },
-        { id: 1, choice: 'Cả A và B' },
-        { id: 2, choice: 'A hoặc B' },
+        { id: 1, choice: 'Cả Inter dash spacing và Very short dashes' },
+        { id: 2, choice: 'Inter dash spacing hoặc Very short dashes' },
       ],
       answer: 3,
     },
@@ -906,7 +905,7 @@ const data = {
       id: 18,
       question: 'Lựa chọn nào dưới đây không phải kiểu đường thẳng (line-type)?',
       choice: [
-        { id: 3, choice: 'Chỉ C đúng' },
+        { id: 3, choice: 'Chỉ Dark line đúng' },
         { id: 0, choice: 'Dashed line' },
         { id: 1, choice: 'Dark line' },
         { id: 2, choice: 'Dotted line' },
@@ -952,8 +951,8 @@ const data = {
       choice: [
         { id: 3, choice: 'Adjacent parallel lines' },
         { id: 0, choice: 'Adjacent perpendicular lines' },
-        { id: 1, choice: 'Cả A và B' },
-        { id: 2, choice: 'Hoặc A hoặc B' },
+        { id: 1, choice: 'Cả Adjacent parallel lines và Adjacent perpendicular lines' },
+        { id: 2, choice: 'Hoặc Adjacent parallel lines hoặc Adjacent perpendicular lines' },
       ],
       answer: 3,
     },
@@ -997,7 +996,7 @@ const data = {
       choice: [
         { id: 3, choice: 'setPolylineColorIndex (lc)' },
         { id: 0, choice: 'setline Color()' },
-        { id: 1, choice: 'Chỉ A đúng' },
+        { id: 1, choice: 'Chỉ setline Color() đúng' },
         { id: 2, choice: 'SETPOLYLINECOLORINDEX (lc)' },
       ],
       answer: 3,
@@ -1235,7 +1234,7 @@ const data = {
         { id: 3, choice: 'logical AND ' },
         { id: 0, choice: 'logical XOR ' },
         { id: 1, choice: 'logical OR ' },
-        { id: 2, choice: 'Cả B và C' },
+        { id: 2, choice: 'Cả logical XOR và logical OR' },
       ],
       answer: 3,
     },
@@ -1270,7 +1269,7 @@ const data = {
       choice: [
         { id: 3, choice: 'Đặt lại vị trí của đối tượng dọc theo một đường thẳng' },
         { id: 0, choice: 'Đặt lại vị trí của đối tượng dọc theo một cung tròn' },
-        { id: 1, choice: 'Chỉ B' },
+        { id: 1, choice: 'Chỉ Đặt lại vị trí của đối tượng dọc theo một cung tròn' },
         { id: 2, choice: 'Tất cả đáp án trên' },
       ],
       answer: 3,
@@ -1290,7 +1289,7 @@ const data = {
       id: 3,
       question: 'Các khoảng cách dịch chuyển (dx, dy) được gọi là',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Véc tơ dịch chuyển và Véc tơ tịnh tiến' },
         { id: 0, choice: 'Véc tơ dịch chuyển' },
         { id: 1, choice: 'Véc tơ tịnh tiến' },
         { id: 2, choice: 'Không lựa chọn nào đúng' },
@@ -1339,7 +1338,7 @@ const data = {
         { id: 3, choice: 'P’=P+T' },
         { id: 0, choice: 'Dx và Dy' },
         { id: 1, choice: 'P’=P+P' },
-        { id: 2, choice: 'Chỉ B đúng' },
+        { id: 2, choice: 'Chỉ P’=P+P đúng' },
       ],
       answer: 3,
     },
@@ -1677,7 +1676,7 @@ const data = {
       id: 2,
       question: 'Nhiệm vụ của bài toán loại bỏ bề mặt ẩn là',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Loại bỏ bề mặt ẩn (Removal of hidden surface) và Nhận diện các bề mặt ẩn (Identification of hidden surface)' },
         { id: 0, choice: 'Loại bỏ bề mặt ẩn (Removal of hidden surface)' },
         { id: 1, choice: 'Nhận diện các bề mặt ẩn (Identification of hidden surface)' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1688,7 +1687,7 @@ const data = {
       id: 3,
       question: 'Tại sao chúng ta cần phải loại bỏ bề mặt ẩn',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Để hiển thị cảnh thực và Để xác định bề mặt hiện gần nhất' },
         { id: 0, choice: 'Để hiển thị cảnh thực' },
         { id: 1, choice: 'Để xác định bề mặt hiện gần nhất' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1699,7 +1698,7 @@ const data = {
       id: 4,
       question: 'Thuật toán của bài toán loại bỏ bề mặt ẩn là',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)' },
         { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
         { id: 1, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1714,7 +1713,7 @@ const data = {
         { id: 3, choice: 'Chính xác theo đối tượng (Object-space method)' },
         { id: 0, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 1, choice: 'Chính xác theo bề mặt (Surface-space method' },
-        { id: 2, choice: 'Cả A và B' },
+        { id: 2, choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)' },
       ],
       answer: 3,
     },
@@ -1725,7 +1724,7 @@ const data = {
       choice: [
         { id: 3, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
-        { id: 1, choice: 'Cả A và B' },
+        { id: 1, choice: 'Cả Chính xác theo ảnh (Image-space method) và Chính xác theo đối tượng (Object-space method)' },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
@@ -1759,7 +1758,7 @@ const data = {
       id: 9,
       question: 'Thuật toán tương thích với dòng quét được phát triển bởi',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Wylie và Evans' },
         { id: 0, choice: 'Wylie' },
         { id: 1, choice: 'Evans' },
         { id: 2, choice: 'Cat mull' },
@@ -1938,7 +1937,7 @@ const data = {
       id: 12,
       question: 'Kiểu của đường cong spline là',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Đường spline mở (Open spline) và Đường spline đóng (Closed spline)' },
         { id: 0, choice: 'Đường spline mở (Open spline)' },
         { id: 1, choice: 'Đường spline đóng (Closed spline)' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1949,7 +1948,7 @@ const data = {
       id: 13,
       question: 'Spline bậc 3 là',
       choice: [
-        { id: 3, choice: 'Cả B và C' },
+        { id: 3, choice: 'Cả Đơn giản để tính toán và Cung cấp các đường cong liên tục' },
         { id: 0, choice: 'Đơn giản để tính toán' },
         { id: 1, choice: 'Cung cấp các đường cong liên tục' },
         { id: 2, choice: 'Không lựa chọn nào' },
