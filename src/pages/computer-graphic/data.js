@@ -45,7 +45,10 @@ const data = {
       choice: [
         { id: 0, choice: 'Cảm biến quang học (Optical sensor)' },
         { id: 1, choice: 'Bi cuộn dưới đáy chuột (Rollers on the bottom of mouse)' },
-        { id: 2, choice: 'Cả Cảm biến quang học (Optical sensor) và Bi cuộn dưới đáy chuột (Rollers on the bottom of mouse)' },
+        {
+          id: 2,
+          choice: 'Cả Cảm biến quang học (Optical sensor) và Bi cuộn dưới đáy chuột (Rollers on the bottom of mouse)',
+        },
         { id: 3, choice: 'Cảm biến (Sensor)' },
       ],
       answer: 2,
@@ -119,7 +122,8 @@ const data = {
       answer: 0,
     },
     {
-      question: 'Thiết bị nào dưới đây được xây dựng với các cảm biến dùng để phát hiện chuyển động bàn tay và ngón tay?',
+      question:
+        'Thiết bị nào dưới đây được xây dựng với các cảm biến dùng để phát hiện chuyển động bàn tay và ngón tay?',
       choice: [
         { id: 0, choice: 'Bộ số hóa (Digitizers)' },
         { id: 1, choice: 'Găng tay cảm nhận (Data glove)' },
@@ -129,7 +133,8 @@ const data = {
       answer: 1,
     },
     {
-      question: 'Thiết bị nào được sử dụng làm đầu vào là tọa độ 2 chiều bằng cách kích hoạt con trỏ tay trên một bề mặt phẳng?',
+      question:
+        'Thiết bị nào được sử dụng làm đầu vào là tọa độ 2 chiều bằng cách kích hoạt con trỏ tay trên một bề mặt phẳng?',
       choice: [
         {
           id: 0,
@@ -202,7 +207,10 @@ const data = {
           choice: `Để nhập dữ liệu (To enter data)`,
         },
         { id: 2, choice: `Không a cũng không b` },
-        { id: 3, choice: `Để khởi tạo các thao tác đồ họa (To initiate graphics operation) và Để nhập dữ liệu (To enter data)` },
+        {
+          id: 3,
+          choice: `Để khởi tạo các thao tác đồ họa (To initiate graphics operation) và Để nhập dữ liệu (To enter data)`,
+        },
       ],
       answer: 3,
     },
@@ -354,7 +362,10 @@ const data = {
           id: 2,
           choice: 'Chỉ hệ thống quét ngẫu nhiên (Random-scan system)',
         },
-        { id: 3, choice: 'Cả hệ thống quét mành (Raster-scan system) và hệ thống quét ngẫu nhiên (Random-scan system)' },
+        {
+          id: 3,
+          choice: 'Cả hệ thống quét mành (Raster-scan system) và hệ thống quét ngẫu nhiên (Random-scan system)',
+        },
       ],
       answer: 0,
     },
@@ -454,9 +465,12 @@ const data = {
           choice: `Tỉ lệ điểm ảnh chiều rộng so với chiều cao (Ratio of horizontal points to vertical
             points)`,
         },
-        { id: 3, choice: 'Cả Tỉ lệ điểm ảnh chiều cao so với chiều rộng (Ratio of vertical points to horizontal
+        {
+          id: 3,
+          choice: `Cả Tỉ lệ điểm ảnh chiều cao so với chiều rộng (Ratio of vertical points to horizontal
           points) và tỉ lệ điểm ảnh chiều rộng so với chiều cao (Ratio of horizontal points to vertical
-            points)' },
+            points)`,
+        },
       ],
       answer: 3,
     },
@@ -692,7 +706,11 @@ const data = {
       choice: [
         { id: 0, choice: 'Màu đặc hoặc mẫu (Solid color or a pattern fill)' },
         { id: 1, choice: 'Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
-        { id: 3, choice: 'Cả Màu đặc hoặc mẫu (Solid color or a pattern fill) và Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)' },
+        {
+          id: 3,
+          choice:
+            'Cả Màu đặc hoặc mẫu (Solid color or a pattern fill) và Các lựa chọn cho các màu và mẫu cụ thể (Choices for particular colors and pattern)',
+        },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
@@ -1676,7 +1694,11 @@ const data = {
       id: 2,
       question: 'Nhiệm vụ của bài toán loại bỏ bề mặt ẩn là',
       choice: [
-        { id: 3, choice: 'Cả Loại bỏ bề mặt ẩn (Removal of hidden surface) và Nhận diện các bề mặt ẩn (Identification of hidden surface)' },
+        {
+          id: 3,
+          choice:
+            'Cả Loại bỏ bề mặt ẩn (Removal of hidden surface) và Nhận diện các bề mặt ẩn (Identification of hidden surface)',
+        },
         { id: 0, choice: 'Loại bỏ bề mặt ẩn (Removal of hidden surface)' },
         { id: 1, choice: 'Nhận diện các bề mặt ẩn (Identification of hidden surface)' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1698,7 +1720,10 @@ const data = {
       id: 4,
       question: 'Thuật toán của bài toán loại bỏ bề mặt ẩn là',
       choice: [
-        { id: 3, choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)' },
+        {
+          id: 3,
+          choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)',
+        },
         { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
         { id: 1, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1713,7 +1738,10 @@ const data = {
         { id: 3, choice: 'Chính xác theo đối tượng (Object-space method)' },
         { id: 0, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 1, choice: 'Chính xác theo bề mặt (Surface-space method' },
-        { id: 2, choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)' },
+        {
+          id: 2,
+          choice: 'Cả Chính xác theo đối tượng (Object-space method) và Chính xác theo ảnh (Image-space method)',
+        },
       ],
       answer: 3,
     },
@@ -1724,7 +1752,10 @@ const data = {
       choice: [
         { id: 3, choice: 'Chính xác theo ảnh (Image-space method)' },
         { id: 0, choice: 'Chính xác theo đối tượng (Object-space method)' },
-        { id: 1, choice: 'Cả Chính xác theo ảnh (Image-space method) và Chính xác theo đối tượng (Object-space method)' },
+        {
+          id: 1,
+          choice: 'Cả Chính xác theo ảnh (Image-space method) và Chính xác theo đối tượng (Object-space method)',
+        },
         { id: 2, choice: 'Không lựa chọn nào' },
       ],
       answer: 3,
