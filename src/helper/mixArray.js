@@ -13,4 +13,11 @@ export const mixArray = (arr) => {
   return arr
 }
 
-// console.log(mixArray(arr))
+export const mixData = (data) => {
+  const mixQuestion = mixArray(data)
+  mixQuestion.forEach((_, index) => {
+    mixQuestion[index].choice = mixArray(_.choice)
+  })
+  return mixQuestion
+}
+

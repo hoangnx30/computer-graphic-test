@@ -5,7 +5,7 @@ import Avatar from 'antd/lib/avatar'
 import QuestionComponent from '../Question'
 
 import './styles.scss'
-import { mixArray } from '../../helper/mixArray'
+import { mixData } from '../../helper/mixArray'
 import { useForceUpdate } from '../../hooks/useForceUpdate'
 
 const MainQuestionsComponent = (props) => {
@@ -39,7 +39,7 @@ const MainQuestionsComponent = (props) => {
   }
 
   const onReworkTest = () => {
-    listQuestions = mixArray(listQuestions)
+    listQuestions = mixData(listQuestions)
     handleChooseQuestion('_', true)
     questionRef.current.reloadQuestion()
     forceUpdate()
