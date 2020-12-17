@@ -2485,7 +2485,7 @@ const data = {
     {
       question: 'glViewport dùng để làm gì?',
       choice: [
-        { id: 3, choice: 'glViewport dùng để làm gì?' },
+        { id: 3, choice: 'Thiết lập sự mở rộng cho khung nhìn hiện tại' },
         { id: 0, choice: 'Thiết lập một viewport hoạt động' },
         { id: 1, choice: 'Yêu cầu dùng cho hàm glOrtho' },
         { id: 2, choice: 'Tắt chế độ tích lũy và kích hoạt viewport chuẩn' },
