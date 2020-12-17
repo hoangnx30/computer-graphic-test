@@ -2285,7 +2285,7 @@ const data = {
       answer: 3,
     },
     {
-      question: 'Hình chữ nhật (Rectangle)',
+      question: 'Nếu không bật nguồn sáng, hàm nào dưới đây chỉ rõ màu của các đỉnh?',
       choice: [
         { id: 3, choice: 'glColor()' },
         { id: 0, choice: 'glClearColor()' },
