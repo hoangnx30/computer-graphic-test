@@ -2137,8 +2137,8 @@ const data = {
       question: 'Ý nghĩa của i,f,v,d… theo qui ước trong các hàm của OpenGL?',
       choice: [
         { id: 0, choice: 'Không có ý nghĩa gì đặc biệt' },
-        { id: 3, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
-        { id: 1, choice: 'Không có ý nghĩa gì đặc biệt' },
+        { id: 3, choice: 'Chỉ rõ kiểu dữ liêu (int, float, pointer, double, …)' },
+        { id: 1, choice: 'Chỉ rõ kiểu dữ liêu trong OpenGL được viết cho CPU' },
         { id: 2, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
       ],
       answer: 3,
@@ -2575,4 +2575,3 @@ const data = {
 }
 export default data
 
-//question 10
