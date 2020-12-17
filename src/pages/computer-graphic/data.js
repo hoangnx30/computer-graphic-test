@@ -431,7 +431,7 @@ const data = {
         { id: 1, choice: 'Máy quét' },
         {
           id: 2,
-          choice: 'Không A cũng không B',
+          choice: 'Không phải màn hình hiển thị video, cũng không phải máy quét',
         },
         { id: 3, choice: 'Máy in' },
       ],
@@ -479,7 +479,6 @@ const data = {
       choice: [
         { id: 0, choice: 'Thiết bị trỏ (Pointing)' },
         { id: 1, choice: 'Thiết bị định vị (Positioning)' },
-        { id: 3, choice: 'Cả Thiết bị trỏ (Pointing) và Thiết bị định vị (Positioning)' },
         { id: 3, choice: 'Cả Thiết bị trỏ (Pointing) và Thiết bị định vị (Positioning)' },
         {
           id: 2,
