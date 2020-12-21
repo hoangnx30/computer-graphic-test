@@ -2137,8 +2137,8 @@ const data = {
       question: 'Ý nghĩa của i,f,v,d… theo qui ước trong các hàm của OpenGL?',
       choice: [
         { id: 0, choice: 'Không có ý nghĩa gì đặc biệt' },
-        { id: 3, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
-        { id: 1, choice: 'Không có ý nghĩa gì đặc biệt' },
+        { id: 3, choice: 'Chỉ rõ kiểu dữ liêu (int, float, pointer, double, …)' },
+        { id: 1, choice: 'Chỉ rõ kiểu dữ liêu trong OpenGL được viết cho CPU' },
         { id: 2, choice: 'Đặc tả đầu ra (Ví dụ: immediate mode, frame buffer, virtual mode, double-buffer,\r\n…)' },
       ],
       answer: 3,
@@ -2285,7 +2285,7 @@ const data = {
       answer: 3,
     },
     {
-      question: 'Hình chữ nhật (Rectangle)',
+      question: 'Nếu không bật nguồn sáng, hàm nào dưới đây chỉ rõ màu của các đỉnh?',
       choice: [
         { id: 3, choice: 'glColor()' },
         { id: 0, choice: 'glClearColor()' },
@@ -2485,7 +2485,7 @@ const data = {
     {
       question: 'glViewport dùng để làm gì?',
       choice: [
-        { id: 3, choice: 'glViewport dùng để làm gì?' },
+        { id: 3, choice: 'Thiết lập sự mở rộng cho khung nhìn hiện tại' },
         { id: 0, choice: 'Thiết lập một viewport hoạt động' },
         { id: 1, choice: 'Yêu cầu dùng cho hàm glOrtho' },
         { id: 2, choice: 'Tắt chế độ tích lũy và kích hoạt viewport chuẩn' },
@@ -2575,4 +2575,3 @@ const data = {
 }
 export default data
 
-//question 10
