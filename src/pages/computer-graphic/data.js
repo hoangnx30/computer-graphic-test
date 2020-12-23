@@ -1341,7 +1341,7 @@ const data = {
       question:
         'Điền vào phần bỏ trống _________ là một phép biến đổi không biến đổi hình dạng (rigid body transformation) chỉ thay đổi vị trí đối tượng mà không làm biến dạng nó.',
       choice: [
-        { id: 3, choice: 'B và D' },
+        { id: 3, choice: 'Cả quay và tịnh tiến' },
         { id: 0, choice: 'Quay' },
         { id: 1, choice: 'Co dãn' },
         { id: 2, choice: 'Tịnh tiến' },
@@ -1536,7 +1536,7 @@ const data = {
       id: 24,
       question: 'Các đối tượng được biến đổi theo phương trình P’=S*P có thể là',
       choice: [
-        { id: 3, choice: 'B và C' },
+        { id: 3, choice: 'Cả "bị co dãn" và "Bị xác định lại vị trí"' },
         { id: 0, choice: 'Bị co dãn' },
         { id: 1, choice: 'Bị xác định lại vị trí' },
         { id: 2, choice: 'Không lựa chọn nào' },
@@ -1594,7 +1594,7 @@ const data = {
         { id: 0, choice: 'Phép biến đổi là phép co dãn đồng nhất' },
         { id: 3, choice: 'Phép biến đổi là phép co dãn không đồng nhất' },
         { id: 1, choice: 'Phép co dãn không thể thực hiện được' },
-        { id: 2, choice: 'Không phải lựa chọn {Đ} cũng không phải lựa chọn {T1}' },
+        { id: 2, choice: 'Không phải lựa chọn "Phép biến đổi là phép co dãn không đồng nhất "cũng không phải lựa chọn Phép biến đổi là phép co dãn đồng nhất"' },
       ],
       answer: 3,
     },

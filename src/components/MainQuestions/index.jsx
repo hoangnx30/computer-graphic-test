@@ -60,8 +60,25 @@ const MainQuestionsComponent = (props) => {
     return null
   }
 
+  // const handleKeyDown = (event) => {
+  //   switch (event.keyCode) {
+  //     case 39:
+  //       handleNextQuestion()
+  //       questionRef.current.reloadQuestion()
+  //       forceUpdate()
+  //       break
+  //     case 37:
+  //       handleBackQuestion()
+  //       questionRef.current.reloadQuestion()
+  //       forceUpdate()
+  //       break
+  //     default:
+  //       break
+  //   }
+  // }
+
   return (
-    <div className="main-question">
+    <div className="main-question" onKeyDown={() => {}}>
       {listQuestions.map((_, index) => {
         if (index === currentQuestion) {
           return (
