@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "summary-computer-graphic",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +38,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "computer-graphic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^4.14.1",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+>>>>>>> source/nextjs
   }
 }

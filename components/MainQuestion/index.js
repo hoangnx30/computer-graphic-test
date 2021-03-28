@@ -1,49 +1,48 @@
-import { useRef, useState } from 'react'
-import Button from 'antd/lib/button'
-import Avatar from 'antd/lib/avatar'
+import { useRef, useState } from "react";
+import Button from "antd/lib/button";
+import Avatar from "antd/lib/avatar";
 
-import QuestionComponent from '../Question'
+import QuestionComponent from "../Question";
 
-import './styles.scss'
-import { mixData } from '../../helper/mixArray'
-import { useForceUpdate } from '../../hooks/useForceUpdate'
+import { mixData } from "../../helper/mixArray";
+import { useForceUpdate } from "../../hooks/useForceUpdate";
 
-const MainQuestionsComponent = (props) => {
-  let { listQuestions } = props
+const MainQuestion = (props) => {
+  let { listQuestions } = props;
 
-  const [currentQuestion, setCurrentQuestion] = useState(0)
-  const forceUpdate = useForceUpdate()
-  const questionRef = useRef()
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const forceUpdate = useForceUpdate();
+  const questionRef = useRef();
 
   const handleChooseQuestion = (event, flag = false) => {
     if (!flag) {
-      setCurrentQuestion(Number(event.target.innerText - 1))
-      questionRef.current.reloadQuestion()
+      setCurrentQuestion(Number(event.target.innerText - 1));
+      questionRef.current.reloadQuestion();
     } else {
-      setCurrentQuestion(0)
+      setCurrentQuestion(0);
     }
-  }
+  };
 
   const handleNextQuestion = () => {
     if (listQuestions.length === currentQuestion + 1) {
-      return
+      return;
     }
-    setCurrentQuestion(currentQuestion + 1)
-  }
+    setCurrentQuestion(currentQuestion + 1);
+  };
 
   const handleBackQuestion = () => {
     if (currentQuestion === 0) {
-      return
+      return;
     }
-    setCurrentQuestion(currentQuestion - 1)
-  }
+    setCurrentQuestion(currentQuestion - 1);
+  };
 
   const onReworkTest = () => {
-    listQuestions = mixData(listQuestions)
-    handleChooseQuestion('_', true)
-    questionRef.current.reloadQuestion()
-    forceUpdate()
-  }
+    listQuestions = mixData(listQuestions);
+    handleChooseQuestion("_", true);
+    questionRef.current.reloadQuestion();
+    forceUpdate();
+  };
 
   const renderQuestion = () => {
     for (let index = 0; index <= listQuestions.length; index++)
@@ -55,10 +54,10 @@ const MainQuestionsComponent = (props) => {
             onBackQuestion={handleBackQuestion}
             ref={questionRef}
           />
-        )
+        );
       }
-    return null
-  }
+    return null;
+  };
 
   // const handleKeyDown = (event) => {
   //   switch (event.keyCode) {
@@ -87,15 +86,15 @@ const MainQuestionsComponent = (props) => {
                 {index + 1}
               </Avatar>
             </span>
-          )
+          );
         } else {
           return (
             <span onClick={handleChooseQuestion}>
-              <Avatar className="cursor" size="default" key={index}>
+              <Avatar className="cursor" size="default" key={index}>  
                 {index + 1}
               </Avatar>
             </span>
-          )
+          );
         }
       })}
       <div>
@@ -105,7 +104,7 @@ const MainQuestionsComponent = (props) => {
       </div>
       <div className="question">{renderQuestion()}</div>
     </div>
-  )
-}
+  );
+};
 
-export default MainQuestionsComponent
+export default MainQuestion;
