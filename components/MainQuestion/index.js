@@ -102,7 +102,7 @@ const MainQuestion = (props) => {
           Làm lại
         </Button>
       </div>
-      {/* <div className="question">{renderQuestion()}</div> */}
+      <div className="question">{renderQuestion()}</div>
     </div>
   );
 };
