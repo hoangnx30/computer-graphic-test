@@ -4,7 +4,7 @@ import HomePage from "../containers/HomePage";
 import data from "../data";
 import MainQuestion from "../components/MainQuestion";
 import { mixData } from "../helper/mixArray";
-import 'antd/dist/antd.css'
+import "antd/dist/antd.css";
 
 const {
   ThietBi,
@@ -66,6 +66,21 @@ export default function Home() {
       <Head>
         <title>Computer Graphic</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-396LDPZ4D0"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+
+          gtag('config', 'G-396LDPZ4D0');`,
+          }}
+        />
       </Head>
 
       <HomePage tabs={tabs} />
