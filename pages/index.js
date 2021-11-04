@@ -66,6 +66,10 @@ export default function Home() {
       <Head>
         <title>Computer Graphic</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="google-site-verification"
+          content="u4Qnt_vZBn-1ViDqH6RP-n65uXBUE1vRqmGZNhdpGlY"
+        />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-396LDPZ4D0"
