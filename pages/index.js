@@ -82,7 +82,7 @@ export default function Home() {
           }
           gtag('js', new Date());
 
-          gtag('config', 'G-396LDPZ4D0');`,
+          gtag('config', 'G-PKTDK29Y39');`,
           }}
         />
       </Head>
